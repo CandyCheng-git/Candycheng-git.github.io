@@ -4,14 +4,14 @@
 body {
 	padding-top: 100px;
 	background: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	color: #64686d;
 	line-height: 26px;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 600;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	color: #272727;
 }
 a {
