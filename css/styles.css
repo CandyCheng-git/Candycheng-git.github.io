@@ -1,0 +1,70 @@
+body {
+    font-family: '';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#file-input {
+    margin: 16px 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-indent:-1.5em;
+}
+table {
+    border-collapse:separate;
+    border-spacing: 0 2px;
+    font-weight: 10;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+td:first-child {
+    width: 300px ;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+}
+tr {
+    margin-bottom: 20px;
+	font-family: Segoe UI Semibold;
+}
+tr:first-child {
+    font-family: Verdana;
+    font-size: 1.5em;
+    height: 60px;
+}
+
+tr:nth-child(4) {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+tr:nth-child(4)> td:nth-child(2) {
+    color: #a7a7a7;
+}
+tr:nth-child(5) {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+tr:nth-child(5)> td:nth-child(2) {
+    color: #5093bb;
+}
+
+
+tr:nth-child(6), tr:nth-child(7)  {
+	line-height: 1.7em;
+}
+tr:nth-child(6) > td:nth-child(2), tr:nth-child(7) > td:nth-child(2) {
+	padding: 12px;
+	padding-left: 0px;
+}
