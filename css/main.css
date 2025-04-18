@@ -1050,3 +1050,129 @@ body {
       max-width: 600px;
       color: #111;
     }
+
+
+
+@media only screen and (max-width: 768px) {
+  #portfolio .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #portfolio .portfolio-item {
+    width: 100% !important;
+    max-width: 100%;
+    padding: 10px;
+    float: none;
+  }
+
+  #portfolio .portfolio-item-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolio .portfolio-item img.img-responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #portfolio .info {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #portfolio iframe {
+    width: 100% !important;
+    height: 200px;
+  }
+
+  .portfolio-filter {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-filter li {
+    margin: 5px;
+    float: none !important;
+  }
+}
+
+/* Desktop layout: 3 items per row */
+@media (min-width: 992px) {
+  #portfolio .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+
+  #portfolio .portfolio-item {
+    width: 33.3333%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
+
+/* Tablet layout: 2 items per row */
+@media (min-width: 768px) and (max-width: 991px) {
+  #portfolio .portfolio-item {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
+
+/* Mobile layout: 1 item per row */
+@media (max-width: 767px) {
+  #portfolio .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #portfolio .portfolio-item {
+    width: 100%;
+    padding: 10px;
+    float: none;
+  }
+
+  #portfolio .portfolio-item-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolio .portfolio-item img.img-responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #portfolio .info {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #portfolio iframe {
+    width: 100% !important;
+    height: 200px;
+  }
+
+  .portfolio-filter {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-filter li {
+    margin: 5px;
+    float: none !important;
+  }
+}
