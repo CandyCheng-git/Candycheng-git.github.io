@@ -271,7 +271,8 @@ ul.nostyle i {
 }
 #cta {
 	padding: 50px 0;
-	background-color: #eeeeee;
+	padding-bottom: 0;
+	background-color: #828fa1;
 }
 #cta h2 {
 	margin-top: 0;
