@@ -45,9 +45,10 @@
 }
 
 .splash-logo {
-  max-height: 50px;
+  max-height: 100px;
   width: auto;
-  display: block;        // removes baseline weirdness from inline images
+  display: flex;
+  align-items: center; 
 }
 
 
