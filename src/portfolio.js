@@ -142,10 +142,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full-Stack Software Engineer (Freelance)",
+      role: "Full-Stack Software Engineer\n(Freelance)",
       company: "Self-Employed",
       companylogo: require("./assets/images/logo.png"), // add this image or swap to an existing one
-      date: "Aug 2025 – Present (Melbourne, Hybrid)",
+      date: "Aug 2025 – Present\n(Melbourne, Hybrid)",
       desc: "Client delivery: production websites with SEO, performance, and lead-generation focus.",
       descBullets: [
         "Delivered a responsive company website with custom templates, image galleries/sliders, and contact forms",
@@ -154,10 +154,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Cloud Engineer (Volunteer)",
+      role: "Cloud Engineer\n(Volunteer)",
       company: "Camfor",
       companylogo: require("./assets/images/camforLogo.png"),
-      date: "Nov 2024 – Present (Melbourne, Hybrid)",
+      date: "Nov 2024 – Present\n(Melbourne, Hybrid)",
       desc: "IoT auto-watering system: cloud-connected data flow, dashboards, and deployment improvements.",
       descBullets: [
         "Built responsive real-time dashboards using Laravel + Livewire for sensor monitoring and thresholds",
@@ -166,10 +166,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Web Developer – Backend & Data Analytics (Internship)",
+      role: "Web Developer – Backend & Data Analytics\n(Internship)",
       company: "Star Promotional Products",
       companylogo: require("./assets/images/starpromoLogo.png"),
-      date: "Jun 2025 – Sep 2025 (Remote, Sydney)",
+      date: "Jun 2025 – Sep 2025\n(Remote, Sydney)",
       desc: "nopCommerce + Azure support: product feed validation, SEO automation, and catalogue data integrity.",
       descBullets: [
         "Automated SEO metadata generation for 10,000+ products using Python scripts (reduced manual effort by ~40%)",
@@ -181,7 +181,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Kerry Logistics",
       companylogo: require("./assets/images/kerryLogo.png"),
-      date: "Sep 2019 – May 2024 (Hong Kong, On-site)",
+      date: "Sep 2019 – May 2024\n(Hong Kong, On-site)",
       desc: "Enterprise systems across HR, finance, operations. Full-stack delivery with strong stakeholder alignment.",
       descBullets: [
         "Built and maintained APIs and business systems using ASP.NET, React, and database platforms (MS-SQL/Oracle)",
@@ -190,10 +190,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Analysis Programmer (Seconded)",
+      role: "Analysis Programmer\n(Seconded)",
       company: "ME Consulting Ltd",
       companylogo: require("./assets/images/meconsultingLogo.png"),
-      date: "Jun 2019 – Aug 2019 (Hong Kong, On-site)",
+      date: "Jun 2019 – Aug 2019\n(Hong Kong, On-site)",
       desc: "Supported enterprise delivery for Kerry Logistics as a seconded engineer.",
       descBullets: ["Contributed to enterprise modules and database integrations for operational systems"]
     },
@@ -201,7 +201,7 @@ const workExperiences = {
       role: "Programmer",
       company: "Lik On Security Ltd",
       companylogo: require("./assets/images/likonLogo.png"),
-      date: "Jun 2017 – Jun 2019 (Hong Kong, On-site)",
+      date: "Jun 2017 – Jun 2019\n(Hong Kong, On-site)",
       desc: "Internal HRMS systems and admin portals with role-based access control.",
       descBullets: [
         "Designed and implemented RBAC patterns for internal systems",
@@ -228,7 +228,7 @@ const bigProjects = {
     projects: [
       {
         image: require("./assets/images/camforLogo.png"),
-        projectName: "Camfor — IoT Monitoring & Control Dashboard (Volunteer Cloud Engineer)",
+        projectName: "Camfor — IoT Monitoring & Control Dashboard\n(Volunteer Cloud Engineer)",
         projectDesc:
           "Built cloud-connected dashboards for IoT auto-watering operations using Laravel + Livewire, focusing on fast UI rendering, clear thresholds/alerts, and scalable deployment patterns. Reduced dashboard latency (~25%) and improved responsiveness (~20%) by refining data flow and rendering strategy. (Private; demo/screenshots available on request.)",
         /*
@@ -242,7 +242,7 @@ const bigProjects = {
       },
       {
         image: require("./assets/images/project_edgekitchens.png"),
-        projectName: "Edge Kitchens & Bathrooms — SEO + Lead-Gen Website (Freelance)",
+        projectName: "Edge Kitchens & Bathrooms — SEO + Lead-Gen Website\n(Freelance)",
         projectDesc:
           "Designed and delivered a responsive company website focused on modern UI/UX, mobile performance, and SEO. Implemented metadata + schema markup, custom templates, galleries/sliders, and contact capture. Ongoing support for content updates and performance improvements.",
         footerLink: [
@@ -254,7 +254,7 @@ const bigProjects = {
       },
       {
         image: require("./assets/images/kerryLogo.png"),
-        projectName: "Kerry Logistics — Enterprise Workflow Systems (Full-Stack)",
+        projectName: "Kerry Logistics — Enterprise Workflow Systems\n(Full-Stack)",
         projectDesc:
           "Led delivery and enhancement of multiple internal business systems across HR and operations: (1) HR Attendance (ASP.NET), (2) HRMS (ASP.NET), (3) Incident/Q&A system (PHP + Oracle), and (4) Finance Purchase workflow (React Native + React). Focus areas: data integrity, RBAC, audit trails, performance tuning, and release stability. Improved platform performance (~15%) and reporting efficiency (~20%). (Proprietary; case study/screenshots available on request.)",
         /*
@@ -278,7 +278,7 @@ const achievementSection = {
   subtitle: "Credibility > fluff. Only the items I can back up with evidence.",
   achievementsCards: [
     {
-      title: "Introduction to Artificial Intelligence (NSW Government)",
+      title: "Introduction to Artificial Intelligence\n(NSW Government)",
       subtitle: "Certificate – Jul 2025",
       image: require("./assets/images/cert_ai_nsw.png"),
       imageAlt: "NSW Government AI Certificate",
@@ -292,7 +292,7 @@ const achievementSection = {
       footerLink: []
     },
     {
-      title: "Outstanding Developer Award (Silver) – Kerry Logistics",
+      title: "Outstanding Developer Award\n(Silver) – Kerry Logistics",
       subtitle: "Awards – Oct 2021",
       image: require("./assets/images/award_kerry.png"),
       imageAlt: "Kerry Logistics Award",
