@@ -2,7 +2,7 @@
 ```
 start "" "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 wsl --install
-cd /mnt/c/Users/Candy/OneDrive/IT/CandyCheng-git/GithubProfile-2026/my-portfolio
+cd /mnt/c/Users/Candy/OneDrive/IT/CandyCheng-git/GithubProfile-2026/Candycheng-git.github.io
 
 
 docker run --rm -it \
