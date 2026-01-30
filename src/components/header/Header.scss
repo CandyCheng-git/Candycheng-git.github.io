@@ -41,11 +41,11 @@
 .splash-title-container {
   display: flex;
   align-items: center;   // aligns logo + text vertically
-  gap: 8px;              // spacing between items
+  //gap: 8px;              // spacing between items
 }
 
 .splash-logo {
-  max-height: 100px;
+  max-height: 80px;
   width: auto;
   display: flex;
   align-items: center; 
