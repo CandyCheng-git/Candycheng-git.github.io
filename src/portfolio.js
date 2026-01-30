@@ -392,7 +392,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
+  //openSource,
   bigProjects,
   achievementSection,
   //blogSection,
