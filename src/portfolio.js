@@ -23,7 +23,7 @@ const greeting = {
   username: "Candy Cheng",
   title: "Hi all, I'm Candy",
   subTitle: emoji(
-    "Full-Stack Software Engineer ☁️🚀\nbased in Melbourne. I build cloud-connected web apps, data automation pipelines, and practical ML prototypes — with a strong business focus (performance, cost, data quality)."
+    "Full-Stack Software Engineer ☁️🚀\nBased in Melbourne.\nI build cloud-connected web apps, data automation pipelines, and practical ML prototypes — with a strong business focus\n(performance, cost, data quality)."
   ),
   resumeLink:
     "https://www.linkedin.com/in/lok-tung-c-hk/", // Set to empty to hide the button
