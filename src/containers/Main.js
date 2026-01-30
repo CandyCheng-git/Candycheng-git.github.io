@@ -42,6 +42,10 @@ const Main = () => {
       };
     }
   }, []);
+  
+  useEffect(() => {
+    document.body.style.backgroundColor = isDark ? "#171c28" : "";
+  }, [isDark]);
 
   const changeTheme = () => {
     setIsDark(!isDark);
