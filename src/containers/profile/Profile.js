@@ -1,17 +1,33 @@
+import React from "react";
+import Contact from "../contact/Contact";
+
+export default function Profile() {
+  return <Contact />;
+}
+
+
+/*
 import React, {useState, useEffect, lazy, Suspense} from "react";
-//import {openSource} from "../../portfolio";
+import {openSource} from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
+
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
+
+
 export default function Profile() {
   const [prof, setrepo] = useState([]);
+  
   function setProfileFunction(array) {
     setrepo(array);
   }
+  
+  return <Contact />;
+
 
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
@@ -49,4 +65,6 @@ export default function Profile() {
   } else {
     return <Contact />;
   }
+
 }
+*/

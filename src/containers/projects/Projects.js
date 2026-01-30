@@ -2,7 +2,7 @@ import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
 import "./Project.scss";
 import Button from "../../components/button/Button";
 import {socialMediaLinks} from "../../portfolio";
-import {openSource} from "../../portfolio";
+//import {openSource} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 export default function Projects() {
@@ -41,8 +41,8 @@ export default function Projects() {
     setrepo(array);
   }
   if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
+    !(typeof repo === "string" || repo instanceof String) // &&
+    //openSource.display
   ) {
     return (
       <Suspense fallback={renderLoader()}>
