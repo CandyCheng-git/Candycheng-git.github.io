@@ -171,7 +171,7 @@ const workExperiences = {
       role: "Web Developer – Backend & Data Analytics\n(Internship)",
       company: "Star Promotional Products",
       companylogo: require("./assets/images/starpromoLogo.png"),
-      date: "Jun 2025 – Sep 2025\n(Remote, Sydney)",
+      date: "Jun 2025 – Sep 2025\n(Sydney, Remote)",
       desc: "nopCommerce + Azure support: product feed validation, SEO automation, and catalogue data integrity.",
       descBullets: [
         "Automated SEO metadata generation for 10,000+ products using Python scripts (reduced manual effort by ~40%)",
