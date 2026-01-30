@@ -36,6 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/candycheng-git",
   linkedin: "https://www.linkedin.com/in/lok-tung-c-hk/",
   gmail: "candycheng.it@gmail.com",
+  kaggle: "https://www.kaggle.com/candychengkaggle",
+  jsdiddle: "https://jsfiddle.net/u/candycheng_js/fiddles/",
   //gitlab: "https://gitlab.com/candycheng-gita",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",

@@ -128,6 +128,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.jsfiddle ? (
+        <a
+          href={socialMediaLinks.jsfiddle}
+          className="icon-button jsfiddle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-jsfiddle"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

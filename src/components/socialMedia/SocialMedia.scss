@@ -68,6 +68,10 @@
   background-color: $instagram;
 }
 
+.jsfiddle i {
+  background-color: $jsfiddle;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,6 +82,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
+.jsfiddle i:hover,
 .medium i:hover {
   background-color: $textColor;
 }
