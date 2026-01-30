@@ -38,6 +38,19 @@
   color: $subTitle;
 }
 
+.splash-title-container {
+  display: flex;
+  align-items: center;   // aligns logo + text vertically
+  gap: 8px;              // spacing between items
+}
+
+.splash-logo {
+  max-height: 50px;
+  width: auto;
+  display: block;        // removes baseline weirdness from inline images
+}
+
+
 .header li a {
   display: block;
   padding: 15px 20px;
