@@ -275,12 +275,10 @@ const bigProjects = {
 const projectCurationSection = {
   title: "Selected Projects Strategy",
   subtitle:
-    "Do not list every repository. Feature a focused shortlist that reinforces a clear backend + data value proposition.",
+    "DFeature a focused shortlist that reinforces a clear backend + data value proposition.",
   display: true,
   highlights: [
-    "Show 4 projects maximum on the homepage to signal judgment and positioning.",
-    "Prioritize software engineering and backend credibility first, then one applied AI/ML example.",
-    "Use cards that explain the problem solved, what was built, and what it proves."
+    "Prioritize software engineering and backend credibility first, then one applied AI/ML example."
   ],
   groups: [
     {
