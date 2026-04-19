@@ -37,8 +37,8 @@ export default function ProjectCuration() {
               key={groupIndex}
               className={isDark ? "project-curation-card dark-mode" : "project-curation-card"}
             >
-              <h3>{group.title}</h3>
-              <ul>
+              <h3 className={isDark ? "dark-mode" : ""}>{group.title}</h3>
+              <ul className={isDark ? "dark-mode" : ""}>
                 {group.projects.map((project, projectIndex) => (
                   <li key={projectIndex}>{project}</li>
                 ))}
