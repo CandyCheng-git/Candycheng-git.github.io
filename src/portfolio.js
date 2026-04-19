@@ -272,6 +272,32 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const projectCurationSection = {
+  title: "Selected Projects Strategy",
+  subtitle:
+    "Do not list every repository. Feature a focused shortlist that reinforces a clear backend + data value proposition.",
+  display: true,
+  highlights: [
+    "Show 4 projects maximum on the homepage to signal judgment and positioning.",
+    "Prioritize software engineering and backend credibility first, then one applied AI/ML example.",
+    "Use cards that explain the problem solved, what was built, and what it proves."
+  ],
+  groups: [
+    {
+      title: "Selected Engineering Projects",
+      projects: [
+        "Csharp-API-Contract-Demo",
+        "MSSQL-Report-Optimizer-Demo",
+        "Csharp-Promotion-Engine"
+      ]
+    },
+    {
+      title: "Data / AI Project",
+      projects: ["AI-ML-Car_Price_Prediction-Assessment-2025-01"]
+    }
+  ]
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -396,6 +422,7 @@ export {
   techStack,
   workExperiences,
   //openSource,
+  projectCurationSection,
   bigProjects,
   achievementSection,
   //blogSection,

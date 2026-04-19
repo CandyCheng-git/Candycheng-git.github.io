@@ -1,0 +1,54 @@
+@import "../../_globalColor";
+
+.project-curation {
+  margin-top: 2rem;
+}
+
+.project-curation-subtitle {
+  color: $subTitle;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+}
+
+.project-curation-highlights {
+  margin: 0 auto 1.5rem auto;
+  max-width: 900px;
+  padding-left: 1.25rem;
+}
+
+.project-curation-highlights li {
+  color: $textColor;
+  margin-bottom: 0.7rem;
+  line-height: 1.6;
+}
+
+.project-curation-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.project-curation-card {
+  background: $lightBackground2;
+  border: 1px solid $lightBorder1;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.project-curation-card h3 {
+  color: $titleColor;
+  margin-top: 0;
+}
+
+.project-curation-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.project-curation-card li {
+  margin-bottom: 0.5rem;
+  color: $textColor;
+}
