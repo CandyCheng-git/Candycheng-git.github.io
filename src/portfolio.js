@@ -104,7 +104,7 @@ const educationInfo = {
       subHeader: "Master of Information Technology (Analytics Specialisation)",
       duration: "Jul 2024 – Feb 2026",
       desc: "Focused on analytics + practical engineering delivery.",
-      descBullets: ["CGPA: 6.64/7 (Highest: 7.00)"]
+      descBullets: ["CGPA: 6.67/7 (Highest: 7.00)"]
     },
     {
       schoolName: "Staffordshire University (HK Campus)",
