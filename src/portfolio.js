@@ -272,6 +272,45 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
+const projectFocusSection = {
+  title: "Selected Projects Strategy",
+  subtitle:
+    "Do not list everything. Feature a deliberate shortlist that proves backend, SQL, business logic, and practical applied ML outcomes.",
+  groups: [
+    {
+      title: "Group 1: Selected Engineering Projects",
+      items: [
+        "Csharp-API-Contract-Demo",
+        "MSSQL-Report-Optimizer-Demo",
+        "Csharp-Promotion-Engine"
+      ]
+    },
+    {
+      title: "Group 2: Data / AI Project",
+      items: ["AI-ML-Car_Price_Prediction-Assessment-2025-01"]
+    },
+    {
+      title: "What each card must show",
+      items: [
+        "Clear title + one-line role label",
+        "2-line problem statement",
+        "3–5 focused tech tags",
+        "Proof strip (what it shows / business angle)",
+        "Two CTAs: View Project + GitHub"
+      ]
+    },
+    {
+      title: "Homepage copy",
+      items: [
+        "Selected Projects",
+        "A focused set of backend, database, and applied data projects that reflect how I build practical systems: clear APIs, scalable reporting, business logic, and data-driven solutions."
+      ]
+    }
+  ],
+  display: true
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -397,6 +436,7 @@ export {
   workExperiences,
   //openSource,
   bigProjects,
+  projectFocusSection,
   achievementSection,
   //blogSection,
   //talkSection,
