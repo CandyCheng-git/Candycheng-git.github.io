@@ -131,8 +131,9 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     { Stack: "Full-Stack Web (Laravel/React)", progressPercentage: "85%" },
-    { Stack: "Cloud & DevOps (AWS/Azure/Docker)", progressPercentage: "75%" },
-    { Stack: "Data Automation (Python/SQL)", progressPercentage: "70%" },
+    { Stack: "Backend Development (C#/SQL/Python)", progressPercentage: "85%" },
+    { Stack: "Cloud & DevOps (AWS/Azure/Docker)", progressPercentage: "70%" },
+    { Stack: "Data Automation (Python/SQL)", progressPercentage: "65%" },
     { Stack: "AI/ML (Projects/Academic)", progressPercentage: "60%" }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -275,7 +276,7 @@ const bigProjects = {
 const projectCurationSection = {
   title: "Selected Projects Strategy",
   subtitle:
-    "DFeature a focused shortlist that reinforces a clear backend + data value proposition.",
+    " Feature a focused shortlist that reinforces a clear backend + data value proposition.",
   display: true,
   highlights: [
     "Prioritize software engineering and backend credibility first, then one applied AI/ML example."
