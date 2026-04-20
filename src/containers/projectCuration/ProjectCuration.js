@@ -23,26 +23,99 @@ export default function ProjectCuration() {
           {projectCurationSection.subtitle}
         </p>
 
-        <ul className="project-curation-highlights">
-          {projectCurationSection.highlights.map((item, index) => (
-            <li key={index} className={isDark ? "dark-mode" : ""}>
-              {item}
-            </li>
-          ))}
-        </ul>
+        {projectCurationSection.highlights?.length > 0 && (
+          <ul className="project-curation-highlights">
+            {projectCurationSection.highlights.map((item, index) => (
+              <li key={index} className={isDark ? "dark-mode" : ""}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        )}
 
-        <div className="project-curation-groups">
-          {projectCurationSection.groups.map((group, groupIndex) => (
+        <div className="project-curation-grid">
+          {projectCurationSection.projects.map((project, index) => (
             <div
-              key={groupIndex}
+              key={index}
               className={isDark ? "project-curation-card dark-mode" : "project-curation-card"}
             >
-              <h3 className={isDark ? "dark-mode" : ""}>{group.title}</h3>
-              <ul className={isDark ? "dark-mode" : ""}>
-                {group.projects.map((project, projectIndex) => (
-                  <li key={projectIndex}>{project}</li>
+              <div className="project-curation-card-top">
+                <span className="project-curation-badge">{project.badge}</span>
+                {project.featuredMetric && (
+                  <span
+                    className={
+                      isDark
+                        ? "project-curation-metric dark-mode"
+                        : "project-curation-metric"
+                    }
+                  >
+                    {project.featuredMetric}
+                  </span>
+                )}
+              </div>
+
+              <h3 className={isDark ? "dark-mode" : ""}>{project.title}</h3>
+              <h4
+                className={
+                  isDark
+                    ? "dark-mode project-curation-role"
+                    : "project-curation-role"
+                }
+              >
+                {project.subtitle}
+              </h4>
+
+              <p
+                className={
+                  isDark
+                    ? "dark-mode project-curation-description"
+                    : "project-curation-description"
+                }
+              >
+                {project.description}
+              </p>
+
+              <div className="project-curation-tags">
+                {project.tags.map((tag, tagIndex) => (
+                  <span key={tagIndex} className="project-curation-tag">
+                    {tag}
+                  </span>
                 ))}
-              </ul>
+              </div>
+
+              <div
+                className={
+                  isDark
+                    ? "project-curation-proof dark-mode"
+                    : "project-curation-proof"
+                }
+              >
+                <strong>Shows:</strong> {project.proof}
+              </div>
+
+              <div className="project-curation-links">
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-curation-link"
+                  >
+                    <span>GitHub</span>
+                  </a>
+                )}
+
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-curation-link project-curation-link-secondary"
+                  >
+                    <span>View Project</span>
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

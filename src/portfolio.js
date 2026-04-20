@@ -274,25 +274,57 @@ const bigProjects = {
 };
 
 const projectCurationSection = {
-  title: "Selected Projects Strategy",
+  title: "Selected Projects",
   subtitle:
-    " Feature a focused shortlist that reinforces a clear backend + data value proposition.",
+    "A focused shortlist of backend, database, and applied data projects that reflect how I build practical systems: clear APIs, scalable reporting, business logic, and business-friendly ML.",
   display: true,
   highlights: [
-    "Prioritize software engineering and backend credibility first, then one applied AI/ML example."
+    "I feature quality over quantity: each project is here because it proves a specific capability relevant to software engineering and backend/data roles."
   ],
-  groups: [
+  projects: [
     {
-      title: "Selected Engineering Projects",
-      projects: [
-        "Csharp-API-Contract-Demo",
-        "MSSQL-Report-Optimizer-Demo",
-        "Csharp-Promotion-Engine"
-      ]
+      title: "C# API Contract Demo",
+      subtitle: "Backend API Design | ASP.NET Core",
+      description:
+        "Designed a REST API demo focused on clean contracts, request validation, Swagger documentation, structured error handling, and integration-ready workflows for consumers.",
+      tags: ["C#", "ASP.NET Core", "Swagger", "Validation", "Postman"],
+      badge: "backend",
+      proof: "API design, contract-first thinking, validation standards, and integration clarity",
+      featuredMetric: "Contract-first API design",
+      github: "https://github.com/CandyCheng-git/Csharp-API-Contract-Demo"
     },
     {
-      title: "Data / AI Project",
-      projects: ["AI-ML-Car_Price_Prediction-Assessment-2025-01"]
+      title: "SQL Report Optimizer Demo",
+      subtitle: "Database Performance | SQL Server",
+      description:
+        "Built a reporting optimization demo using slow-query baselines, indexing, summary tables, and incremental refresh patterns to reduce report bottlenecks and improve scalability.",
+      tags: ["T-SQL", "Indexing", "Reporting", "Performance", "SQL Server"],
+      badge: "sql performance",
+      proof: "query tuning, reporting performance, and business-system thinking",
+      featuredMetric: "From slow reports to scalable reporting",
+      github: "https://github.com/CandyCheng-git/MSSQL-Report-Optimizer-Demo"
+    },
+    {
+      title: "C# Promotion Engine",
+      subtitle: "Business Rules Engine | Pricing Logic",
+      description:
+        "Implemented promotion and discount logic to model real-world pricing rules, conflicting conditions, and maintainable backend decision flows in a structured C# solution.",
+      tags: ["C#", "OOP", "Business Logic", "Pricing", "Rules Engine"],
+      badge: "business rules",
+      proof: "backend logic, code structure, commerce workflows, and maintainable rule handling",
+      featuredMetric: "Complex rules made testable",
+      github: "https://github.com/CandyCheng-git/Csharp-Promotion-Engine"
+    },
+    {
+      title: "Car Price Prediction",
+      subtitle: "Applied Machine Learning | Regression",
+      description:
+        "Built a machine learning project to predict used-car prices using data preparation, exploratory analysis, feature engineering, model training, and evaluation in a practical business use case.",
+      tags: ["Python", "Pandas", "Scikit-learn", "Regression", "Jupyter"],
+      badge: "applied ml",
+      proof: "practical ML workflow, data preparation, model evaluation, and business-friendly problem framing",
+      featuredMetric: "Applied ML with business context",
+      github: "https://github.com/CandyCheng-git/AI-ML-Car_Price_Prediction-Assessment-2025-01"
     }
   ]
 };

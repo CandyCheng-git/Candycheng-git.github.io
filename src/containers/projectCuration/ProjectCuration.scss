@@ -1,54 +1,214 @@
-@import "../../_globalColor";
-
 .project-curation {
-  margin-top: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .project-curation-subtitle {
-  color: $subTitle;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  line-height: 1.7;
   max-width: 900px;
-  margin: 0 auto 1rem auto;
-  text-align: center;
+  margin: 0 auto 20px 0;
+  color: #586069;
+}
+
+.dark-mode.project-curation-subtitle {
+  color: #c9d1d9;
 }
 
 .project-curation-highlights {
-  margin: 0 auto 1.5rem auto;
   max-width: 900px;
-  padding-left: 1.25rem;
+  margin: 0 auto 30px 0;
+  padding-left: 1.2rem;
+
+  li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #586069;
+  }
+
+  .dark-mode {
+    color: #c9d1d9;
+  }
 }
 
-.project-curation-highlights li {
-  color: $textColor;
-  margin-bottom: 0.7rem;
-  line-height: 1.6;
-}
-
-.project-curation-groups {
+.project-curation-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 84px;
+  margin-top: 10px;
 }
 
 .project-curation-card {
-  background: $lightBackground2;
-  border: 1px solid $lightBorder1;
-  border-radius: 10px;
-  padding: 1rem 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.1);
+  }
+
+  h3 {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    margin: 0 0 8px 0;
+    color: #1f2328;
+  }
 }
 
-.project-curation-card h3 {
-  color: $titleColor;
-  margin-top: 0;
+.project-curation-card.dark-mode {
+  background: #161b22;
+  border: 1px solid #30363d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+
+  h3 {
+    color: #f0f6fc;
+  }
 }
 
-.project-curation-card ul {
-  margin: 0;
-  padding-left: 1.1rem;
+.project-curation-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
 }
 
-.project-curation-card li {
-  margin-bottom: 0.5rem;
-  color: $textColor;
+.project-curation-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: #1f6feb;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.project-curation-metric {
+  font-size: 0.84rem;
+  color: #57606a;
+  font-weight: 600;
+}
+
+.project-curation-metric.dark-mode {
+  color: #9da7b3;
+}
+
+.project-curation-role {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #1f6feb;
+  margin: 0 0 14px 0;
+  line-height: 1.5;
+}
+
+.dark-mode.project-curation-role {
+  color: #58a6ff;
+}
+
+.project-curation-description {
+  font-size: 0.97rem;
+  line-height: 1.75;
+  color: #4b5563;
+  margin-bottom: 18px;
+}
+
+.dark-mode.project-curation-description {
+  color: #c9d1d9;
+}
+
+.project-curation-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.project-curation-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.83rem;
+  font-weight: 600;
+}
+
+.project-curation-proof {
+  margin-top: auto;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+  line-height: 1.65;
+  font-size: 0.92rem;
+}
+
+.project-curation-proof.dark-mode {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+}
+
+.project-curation-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.project-curation-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: #1f6feb;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+  }
+}
+
+.project-curation-link-secondary {
+  background: #111827;
+}
+
+@media (max-width: 992px) {
+  .project-curation-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-curation {
+    width: 95%;
+    padding-top: 20px;
+  }
+
+  .project-curation-card {
+    padding: 20px;
+  }
+
+  .project-curation-subtitle {
+    font-size: 1rem;
+  }
 }
