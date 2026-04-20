@@ -23,7 +23,7 @@ const greeting = {
   username: "Candy Cheng",
   title: "Hi all, I'm Candy",
   subTitle: emoji(
-    "Full-Stack Software Engineer ☁️🚀\nBased in Melbourne.\nI build cloud-connected web apps, data automation pipelines, and practical ML prototypes — with a strong business focus\n(performance, cost, data quality)."
+    "Full-Stack Software Engineer ☁️🚀\nBased in Melbourne.\nI build practical digital solutions across web, backend, and data.\n(performance, reliability, data quality)."
   ),
   resumeLink:
     "https://www.linkedin.com/in/lok-tung-c-hk/", // Set to empty to hide the button
@@ -54,11 +54,11 @@ const skillsSection = {
   subTitle:
     "I ship end-to-end solutions: UI → API → database → cloud deployment → automation & analytics.",
   skills: [
-    emoji("⚡ Build responsive web apps & dashboards\n(Laravel, Livewire, React)"),
-    emoji("⚡ Design APIs + integrate e-commerce/data feeds\n(nopCommerce, REST, SEO metadata)"),
-    emoji("⚡ Cloud & DevOps\n(AWS/Azure basics, Docker, CI/CD, cost & reliability thinking)"),
-    emoji("⚡ Data automation (Python + SQL) for audits, validation, and reporting"),
-    emoji("⚡ ML projects (scikit-learn/TensorFlow, NLP foundations) for real-world use cases")
+    emoji("⚡ Build responsive web applications and operational dashboards with Laravel, Livewire, and React"),
+    emoji("⚡ Design backend APIs and integrate e-commerce platforms and external data feeds for scalable business workflows"),
+    emoji("⚡ Support cloud deployment and DevOps workflows using AWS, Azure, Docker, and CI/CD practices"),
+    emoji("⚡ Automate data validation, auditing, and reporting processes with Python and SQL"),
+    emoji("⚡ Develop applied machine learning solutions using scikit-learn, TensorFlow, and NLP foundations")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
