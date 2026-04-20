@@ -231,51 +231,52 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-    title: "Flagship Work",
-    subtitle: "Production systems delivered end-to-end: architecture, delivery, and measurable impact.",
-    projects: [
-      {
-        image: require("./assets/images/camforLogo.png"),
-        projectName: "Camfor — IoT Monitoring & Control Dashboard\n(Volunteer Cloud Engineer)",
-        projectDesc:
-          "Built cloud-connected dashboards for IoT auto-watering operations using Laravel + Livewire, focusing on fast UI rendering, clear thresholds/alerts, and scalable deployment patterns. Reduced dashboard latency (~25%) and improved responsiveness (~20%) by refining data flow and rendering strategy. (Private; demo/screenshots available on request.)",
-        /*
-        footerLink: [
-          {
-            name: "Request Demo",
-            url: "mailto:candycheng.it@gmail.com?subject=Camfor%20IoT%20Demo%20Request"
-          }
-        ]
-          */
-      },
-      {
-        image: require("./assets/images/project_edgekitchens.png"),
-        projectName: "Edge Kitchens & Bathrooms — SEO + Lead-Gen Website\n(Freelance)",
-        projectDesc:
-          "Designed and delivered a responsive company website focused on modern UI/UX, mobile performance, and SEO. Implemented metadata + schema markup, custom templates, galleries/sliders, and contact capture. Ongoing support for content updates and performance improvements.",
-        footerLink: [
-          {
-            name: "Live Website",
-            url: "https://edgekitchensandbathrooms.com.au/"
-          }
-        ]
-      },
-      {
-        image: require("./assets/images/kerryLogo.png"),
-        projectName: "Kerry Logistics — Enterprise Workflow Systems\n(Full-Stack)",
-        projectDesc:
-          "Led delivery and enhancement of multiple internal business systems across HR and operations: (1) HR Attendance (ASP.NET), (2) HRMS (ASP.NET), (3) Incident/Q&A system (PHP + Oracle), and (4) Finance Purchase workflow (React Native + React). Focus areas: data integrity, RBAC, audit trails, performance tuning, and release stability. Improved platform performance (~15%) and reporting efficiency (~20%). (Proprietary; case study/screenshots available on request.)",
-        /*
-        footerLink: [
-          {
-            name: "Request Case Study",
-            url: "mailto:candycheng.it@gmail.com?subject=Kerry%20Logistics%20Case%20Study%20Request"
-          }
-        ]
-          */
-      },
-    ],
-  display: true // Set false to hide this section, defaults to true
+  title: "Flagship Work",
+  subtitle:
+    "Selected professional work across cloud-connected products, client delivery, and enterprise systems.",
+  projects: [
+    {
+      image: require("./assets/images/camforLogo.png"),
+      projectName: "Camfor — IoT Monitoring & Control Dashboard\n(Volunteer Cloud Engineer)",
+      projectDesc:
+        "Built cloud-connected dashboards for an IoT auto-watering platform using Laravel and Livewire, with a focus on real-time monitoring, threshold visibility, and scalable deployment patterns. Improved dashboard latency by about 25% and responsiveness by about 20% by refining data flow and UI rendering strategy. Private project; demo or screenshots available on request."
+      /*
+      footerLink: [
+        {
+          name: "Request Demo",
+          url: "mailto:candycheng.it@gmail.com?subject=Camfor%20IoT%20Demo%20Request"
+        }
+      ]
+      */
+    },
+    {
+      image: require("./assets/images/project_edgekitchens.png"),
+      projectName: "Edge Kitchens & Bathrooms — SEO & Lead Generation Website\n(Freelance)",
+      projectDesc:
+        "Designed and delivered a responsive business website focused on modern UX, mobile performance, and SEO. Implemented metadata, schema markup, custom page sections, galleries, and contact capture to support visibility and lead generation, with ongoing improvements for content and performance.",
+      footerLink: [
+        {
+          name: "Live Website",
+          url: "https://edgekitchensandbathrooms.com.au/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kerryLogo.png"),
+      projectName: "Kerry Logistics — Enterprise Workflow Systems\n(Full-Stack Software Engineer)",
+      projectDesc:
+        "Delivered and enhanced multiple internal systems across HR and operations, including attendance, HRMS, incident handling, and finance purchase workflows. Worked across ASP.NET, PHP, React, React Native, MS SQL Server, and Oracle with a strong focus on data integrity, access control, auditability, performance tuning, and release stability. Improved platform performance by about 15% and reporting efficiency by about 20%. Proprietary work; case study available on request."
+      /*
+      footerLink: [
+        {
+          name: "Request Case Study",
+          url: "mailto:candycheng.it@gmail.com?subject=Kerry%20Logistics%20Case%20Study%20Request"
+        }
+      ]
+      */
+    }
+  ],
+  display: true
 };
 
 const projectCurationSection = {
