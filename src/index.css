@@ -20,6 +20,9 @@ html,
 body {
   scroll-behavior: smooth;
 }
+html {
+  scroll-padding-top: 110px;
+}
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;

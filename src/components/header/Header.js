@@ -7,39 +7,42 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  //openSource,
-  //blogSection,
-  //talkSection,
+  projectCurationSection,
   achievementSection,
   resumeSection
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
-  //const viewOpenSource = openSource.display;
+
   const viewSkills = skillsSection.display;
+  const viewExperience = workExperiences.display;
+  const viewProjects = projectCurationSection.display;
   const viewAchievement = achievementSection.display;
-  //const viewBlog = blogSection.display;
-  //const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
   return (
-    <Headroom>
+    <Headroom
+      disableInlineStyles
+      pinStart={0}
+      wrapperStyle={{height: "92px"}}
+    >
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-            <div className="splash-title-container">
-              <img
-                className="splash-logo"
-                src={require("../../assets/images/logo.png")}
-                alt="logo"
-              />
-              <span className="grey-color">&lt;</span>
-              <span className="splash-title">{greeting.username}</span>
-              <span className="grey-color">/&gt;</span>
-            </div>
+          <div className="splash-title-container">
+            <img
+              className="splash-logo"
+              src={require("../../assets/images/logo.png")}
+              alt="logo"
+            />
+            <span className="grey-color">&lt;</span>
+            <span className="splash-title">{greeting.username}</span>
+            <span className="grey-color">/&gt;</span>
+          </div>
         </a>
+
         <input className="menu-btn" type="checkbox" id="menu-btn" />
+
         <label
           className="menu-icon"
           htmlFor="menu-btn"
@@ -47,57 +50,51 @@ function Header() {
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
+
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
             </li>
           )}
+
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Experience</a>
             </li>
           )}
-          {/*
-          {viewOpenSource && (
+
+          {viewProjects && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#project-curation">Projects</a>
             </li>
           )}
-            */}
+
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {/*
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}*/}
+
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>
             </li>
           )}
+
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contact</a>
           </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+
+          <li className="toggle-switch-li">
+            <div className="toggle-switch-wrapper">
               <ToggleSwitch />
-            </a>
+            </div>
           </li>
         </ul>
       </header>
     </Headroom>
   );
 }
+
 export default Header;
