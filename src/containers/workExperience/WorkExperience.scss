@@ -1,14 +1,3 @@
-.experience-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 1rem;
-}
-
-.experience-heading {
-  font-size: 56px;
-  font-weight: 400;
-}
-
 .experience-container {
   display: flex;
   width: 90%;
@@ -22,8 +11,94 @@
   min-width: 0;
 }
 
-/* Media Query */
+.experience-content {
+  width: 100%;
+}
 
+.experience-heading {
+  font-size: 56px;
+  font-weight: 400;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.2;
+}
+
+.experience-subtitle {
+  max-width: 780px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0 0 2rem 0;
+  color: #5b6574;
+}
+
+.experience-subtitle.dark-mode {
+  color: #c8d1db;
+}
+
+.experience-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.experience-card-shell {
+  height: 100%;
+  display: flex;
+}
+
+.experience-card-shell > * {
+  width: 100%;
+  height: 100%;
+}
+
+/* Normalize spacing and readability inside cards */
+.experience-card-shell h1,
+.experience-card-shell h2,
+.experience-card-shell h3,
+.experience-card-shell h4,
+.experience-card-shell h5,
+.experience-card-shell h6 {
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+}
+
+.experience-card-shell p {
+  line-height: 1.65;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.experience-card-shell li {
+  line-height: 1.65;
+  margin-bottom: 0.45rem;
+}
+
+.experience-card-shell ul {
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
+/* Make cards visually consistent even if content length differs */
+.experience-card-shell .experience-card,
+.experience-card-shell .experience-card-dark,
+.experience-card-shell .card,
+.experience-card-shell .dark-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push bottom content down when card internals support flex */
+.experience-card-shell .experience-card > *:last-child,
+.experience-card-shell .experience-card-dark > *:last-child,
+.experience-card-shell .card > *:last-child,
+.experience-card-shell .dark-card > *:last-child {
+  margin-bottom: auto;
+}
+
+/* Media Query */
 @media (max-width: 1380px) {
   .experience-heading {
     font-size: 40px;
@@ -39,11 +114,20 @@
   .experience-cards-div {
     grid-template-columns: 1fr;
   }
+
+  .experience-subtitle {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+
+  .experience-subtitle {
+    text-align: center;
+    font-size: 1rem;
   }
 }

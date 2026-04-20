@@ -142,18 +142,21 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  title: "Experience",
+  subtitle:
+    "Software engineering across enterprise systems, cloud-connected products, data automation, and client-facing web delivery.",
+  display: true,
   experience: [
     {
       role: "Full-Stack Software Engineer\n(Freelance)",
       company: "Self-Employed",
-      companylogo: require("./assets/images/logo.png"), // add this image or swap to an existing one
+      companylogo: require("./assets/images/logo.png"),
       date: "Aug 2025 – Present\n(Melbourne, Hybrid)",
-      desc: "Client delivery: production websites with SEO, performance, and lead-generation focus.",
+      desc: "Delivering production websites with strong attention to SEO, performance, usability, and business conversion.",
       descBullets: [
-        "Delivered a responsive company website with custom templates, image galleries/sliders, and contact forms",
-        "Implemented SEO best practices (metadata + schema markup) to improve search visibility",
-        "Collaborated with client on branding, content structure, and social integration; provided ongoing optimisation support"
+        "Built a responsive business website with custom page templates, galleries, sliders, and contact capture workflows",
+        "Implemented on-page SEO foundations including metadata, schema markup, and content structure to improve search visibility",
+        "Worked directly with the client on branding, messaging, and iteration, turning business goals into production-ready features"
       ]
     },
     {
@@ -161,11 +164,11 @@ const workExperiences = {
       company: "Camfor",
       companylogo: require("./assets/images/camforLogo.png"),
       date: "Nov 2024 – Present\n(Melbourne, Hybrid)",
-      desc: "IoT auto-watering system: cloud-connected data flow, dashboards, and deployment improvements.",
+      desc: "Contributing to a cloud-connected IoT auto-watering platform covering dashboards, data flow, and deployment structure.",
       descBullets: [
-        "Built responsive real-time dashboards using Laravel + Livewire for sensor monitoring and thresholds",
-        "Improved dashboard latency by ~25% by refining data flow and UI rendering patterns",
-        "Delivered modular deployment approach to support scaling across multiple agricultural sites"
+        "Built responsive Laravel + Livewire dashboards for sensor monitoring, thresholds, alerts, and bed-level operational visibility",
+        "Improved dashboard latency by about 25% by refining Livewire event flow, rendering behaviour, and component updates",
+        "Supported a modular deployment approach to help the platform scale across multiple agricultural sites and future environments"
       ]
     },
     {
@@ -173,11 +176,11 @@ const workExperiences = {
       company: "Star Promotional Products",
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun 2025 – Sep 2025\n(Sydney, Remote)",
-      desc: "nopCommerce + Azure support: product feed validation, SEO automation, and catalogue data integrity.",
+      desc: "Worked on nopCommerce and Azure-related product operations, focusing on data quality, SEO automation, and pricing validation.",
       descBullets: [
-        "Automated SEO metadata generation for 10,000+ products using Python scripts (reduced manual effort by ~40%)",
-        "Validated supplier feeds (PromoData/Legend Life) against backend, fixing 200+ mismatches and reducing pricing errors",
-        "Supported Azure cloud cost analysis (~$1,047/month) and documented optimisation opportunities"
+        "Automated SEO metadata generation for 10,000+ products with Python, cutting manual effort by about 40%",
+        "Audited supplier feeds against backend records, resolving 200+ mismatches across pricing, decoration, and catalogue data",
+        "Reviewed Azure cloud spending of about AUD 1,047 per month and documented optimisation opportunities for cost-aware operations"
       ]
     },
     {
@@ -185,11 +188,11 @@ const workExperiences = {
       company: "Kerry Logistics",
       companylogo: require("./assets/images/kerryLogo.png"),
       date: "Sep 2019 – May 2024\n(Hong Kong, On-site)",
-      desc: "Enterprise systems across HR, finance, operations. Full-stack delivery with strong stakeholder alignment.",
+      desc: "Built and enhanced enterprise systems across HR, finance, and operations with a strong focus on delivery, reliability, and stakeholder alignment.",
       descBullets: [
-        "Built and maintained APIs and business systems using ASP.NET, React, and database platforms (MS-SQL/Oracle)",
-        "Optimised queries and integration flows to improve platform performance (~15%) and reporting efficiency (~20%)",
-        "Recognised with Outstanding Developer (Silver Award) for delivery under tight deadlines"
+        "Developed APIs and internal business systems using ASP.NET, React, MS SQL Server, and Oracle across multiple operational workflows",
+        "Optimised queries and integration flows to improve platform performance by about 15% and reporting efficiency by about 20%",
+        "Received the Outstanding Developer Silver Award for strong delivery under tight deadlines and cross-team business pressure"
       ]
     },
     {
@@ -197,18 +200,20 @@ const workExperiences = {
       company: "ME Consulting Ltd",
       companylogo: require("./assets/images/meconsultingLogo.png"),
       date: "Jun 2019 – Aug 2019\n(Hong Kong, On-site)",
-      desc: "Supported enterprise delivery for Kerry Logistics as a seconded engineer.",
-      descBullets: ["Contributed to enterprise modules and database integrations for operational systems"]
+      desc: "Seconded to support enterprise delivery work for Kerry Logistics during a transition period.",
+      descBullets: [
+        "Contributed to backend modules, business workflows, and database integrations for operational systems"
+      ]
     },
     {
       role: "Programmer",
       company: "Lik On Security Ltd",
       companylogo: require("./assets/images/likonLogo.png"),
       date: "Jun 2017 – Jun 2019\n(Hong Kong, On-site)",
-      desc: "Internal HRMS systems and admin portals with role-based access control.",
+      desc: "Built internal HRMS and administration tools with role-based access, process digitisation, and day-to-day operational support.",
       descBullets: [
-        "Designed and implemented RBAC patterns for internal systems",
-        "Reduced manual HR incident tracking workload (~30%) through system digitalisation"
+        "Designed and implemented role-based access control patterns for internal systems and admin workflows",
+        "Reduced manual HR incident tracking workload by about 30% through process digitalisation and system support"
       ]
     }
   ]

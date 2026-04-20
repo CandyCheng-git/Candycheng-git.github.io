@@ -11,10 +11,18 @@ export default function WorkExperience() {
   if (!workExperiences.display) return null;
 
   return (
-    <div id="experience">
+    <section id="experience">
       <div className="experience-container" id="workExperience">
-        <div>
-          <h1 className="experience-heading">Experiences</h1>
+        <div className="experience-content">
+          <h1 className="experience-heading">
+            {workExperiences.title || "Experience"}
+          </h1>
+
+          {workExperiences.subtitle ? (
+            <p className={isDark ? "experience-subtitle dark-mode" : "experience-subtitle"}>
+              {workExperiences.subtitle}
+            </p>
+          ) : null}
 
           <div className="experience-cards-div">
             {workExperiences.experience.map((card, i) => (
@@ -26,22 +34,24 @@ export default function WorkExperience() {
                 fraction={0.15}
                 triggerOnce
               >
-                <ExperienceCard
-                  isDark={isDark}
-                  cardInfo={{
-                    company: card.company,
-                    desc: card.desc,
-                    date: card.date,
-                    companylogo: card.companylogo,
-                    role: card.role,
-                    descBullets: card.descBullets
-                  }}
-                />
+                <div className="experience-card-shell">
+                  <ExperienceCard
+                    isDark={isDark}
+                    cardInfo={{
+                      company: card.company,
+                      desc: card.desc,
+                      date: card.date,
+                      companylogo: card.companylogo,
+                      role: card.role,
+                      descBullets: card.descBullets
+                    }}
+                  />
+                </div>
               </Fade>
             ))}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
