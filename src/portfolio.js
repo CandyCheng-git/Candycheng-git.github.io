@@ -200,7 +200,7 @@ const workExperiences = {
     {
       role: "Technical Support Assistant",
       company: "Speedy Group",
-      companylogo: require("./assets/images/logo.png"),
+      companylogo: require("./assets/images/SpeedyGroup.png"),
       date: "Aug 2015 – Jun 2017\nHong Kong",
       desc:
         "Provided IT support for public school environments while building lightweight PHP automation tools.",
