@@ -51,6 +51,7 @@ const skillsSection = {
     emoji("⚡ Design REST APIs, backend services, and SQL-driven business logic for enterprise workflows"),
     emoji("⚡ Optimise reporting, data validation, and automation using SQL, Python, and backend integrations"),
     emoji("⚡ Support cloud and deployment workflows using AWS, Azure, Docker, GitHub Actions, and CI/CD"),
+    emoji("⚡ Verified project stack includes Angular 21, .NET 9 / ASP.NET Core Web API, React 18, Next.js 16, TypeScript 5.x, Node.js 20 CI, Express 4, PostgreSQL 15, Docker, xUnit, Vitest, Supertest, and Playwright"),
     emoji("⚡ Turn unclear business requirements into maintainable systems, documentation, tests, and working releases")
   ],
 
@@ -73,13 +74,13 @@ const skillsSection = {
     { skillName: "Livewire", fontAwesomeClassname: "fas fa-bolt" },
 
     { skillName: "C#", fontAwesomeClassname: "fas fa-code" },
-    { skillName: ".NET / ASP.NET", fontAwesomeClassname: "fas fa-server" },
+    { skillName: ".NET / ASP.NET Core", fontAwesomeClassname: "fas fa-server" },
 
     { skillName: "SQL / Databases", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Umbraco CMS", fontAwesomeClassname: "fas fa-sitemap" },
 
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "GitHub Actions / CI", fontAwesomeClassname: "fab fa-github" },
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
 
     { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
@@ -264,18 +265,30 @@ const bigProjects = {
 const projectCurationSection = {
   title: "Selected Projects",
   subtitle:
-    "Focused projects that prove backend, database, API, full-stack, and applied data capability.",
+    "Focused projects that prove backend, database, API, full-stack, CI/CD, and applied data capability.",
   display: true,
   highlights: [
-    "Quality over quantity: each project proves a specific engineering skill recruiters can quickly understand."
+    "Quality over quantity: each project proves a specific engineering skill recruiters can quickly understand.",
+    "Version details are shown only where there is project evidence, not as empty keyword stuffing."
   ],
   projects: [
     {
-      title: "Global360 TODO List",
-      subtitle: "Full-Stack Assessment | Angular + .NET Web API",
+      title: "SearchOps Job Platform",
+      subtitle: "SEO-Aware Job Platform | Full-Stack + CI/CD",
       description:
-        "Built a clean TODO list app with Angular frontend, .NET Web API backend, in-memory data storage, Docker-based run instructions, Swagger API testing, and frontend/backend test coverage.",
-      tags: ["Angular", ".NET Web API", "C#", "Docker", "Swagger", "Testing"],
+        "Built a job-search platform prototype focused on backend API design, Prisma/PostgreSQL data modelling, frontend integration, Docker-based development, automated tests, and GitHub Actions CI workflow.",
+      tags: ["TypeScript 5.x", "Node.js 20 CI", "Express 4", "Next.js 16", "React 18", "PostgreSQL 15", "Docker", "GitHub Actions", "Vitest", "Supertest", "Playwright"],
+      badge: "full-stack platform",
+      proof: "API design, database modelling, CI workflow, testing strategy, and job-platform domain thinking",
+      featuredMetric: "Backend + data model + CI proof",
+      github: "https://github.com/CandyCheng-git/Searchops-Job-Platform"
+    },
+    {
+      title: "Global360 TODO List",
+      subtitle: "Full-Stack Assessment | Angular 21 + .NET 9 Web API",
+      description:
+        "Built a clean TODO list app using Angular 21 frontend and .NET 9 Web API backend, with in-memory data storage, Docker-based run instructions, Swagger API testing, and frontend/backend test coverage.",
+      tags: ["Angular 21", ".NET 9 Web API", "C#", "Docker", "Swagger", "xUnit", "Vitest", "Testing"],
       badge: "full-stack",
       proof: "frontend/backend integration, API design, testing, and clean assessment delivery",
       featuredMetric: "Built and tested under deadline",
