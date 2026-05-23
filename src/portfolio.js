@@ -143,7 +143,7 @@ const techStack = {
 const workExperiences = {
   title: "Experience",
   subtitle:
-    "6+ years delivering backend, database, cloud-enabled, and full-stack systems across Australia and Hong Kong.",
+    "6+ years building backend, database, cloud, and full-stack systems across Australia and Hong Kong.",
   display: true,
   experience: [
     {
@@ -152,11 +152,11 @@ const workExperiences = {
       companylogo: require("./assets/images/camforLogo.png"),
       date: "Nov 2024 – Present\nMelbourne, Australia",
       desc:
-        "Building cloud-connected IoT monitoring tools for agriculture, covering dashboards, telemetry, API workflows, and deployment structure.",
+        "Cloud-connected IoT monitoring platform for agriculture.",
       descBullets: [
-        "Built Laravel, Livewire, Tailwind CSS, and Docker-based dashboards for controller states, sensor readings, thresholds, alerts, and watering-event visibility",
-        "Reduced dashboard latency by approximately 25% by improving backend data flow, Livewire rendering, and component update behaviour",
-        "Reduced manual data checks by an estimated 30% through clearer operational dashboards and API-driven telemetry visibility"
+        "Built Laravel, Livewire, Tailwind, and Docker dashboards for sensors, thresholds, alerts, and watering events",
+        "Improved dashboard latency by ~25% through backend flow and Livewire rendering optimisation",
+        "Reduced manual checks by ~30% with clearer telemetry and operational visibility"
       ]
     },
     {
@@ -165,11 +165,11 @@ const workExperiences = {
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun 2025 – Sep 2025\nSydney, Remote",
       desc:
-        "Worked on nopCommerce product operations, supplier data validation, SEO automation, and cloud cost review for a 10,000+ SKU catalogue.",
+        "nopCommerce data operations, SEO automation, supplier validation, and Azure cost review.",
       descBullets: [
-        "Automated SEO metadata generation for 10,000+ products, reducing manual workload by approximately 40%",
-        "Identified and corrected 200+ supplier/backend data mismatches across pricing, decoration, and catalogue data",
-        "Reviewed AUD 1,047/month Azure spend and proposed 10–15% cost-reduction opportunities"
+        "Automated SEO metadata for 10,000+ products, cutting manual workload by ~40%",
+        "Resolved 200+ supplier/backend mismatches across pricing, decoration, and catalogue data",
+        "Reviewed AUD 1,047/month Azure spend and proposed 10–15% savings"
       ]
     },
     {
@@ -178,11 +178,11 @@ const workExperiences = {
       companylogo: require("./assets/images/kerryLogo.png"),
       date: "Jun 2019 – May 2024\nHong Kong",
       desc:
-        "Delivered enterprise HR, finance, corporate web, and operational systems for a 10,000+ user logistics environment.",
+        "Enterprise HR, finance, CMS, and operational systems for 10,000+ users.",
       descBullets: [
-        "Built backend services, REST APIs, SQL-driven business logic, and enterprise web apps using C#/.NET, ASP.NET, React, Vue.js, MS SQL Server, Oracle, and cloud-enabled deployment practices",
-        "Supported corporate website and CMS operations using Umbraco CMS, including content workflows, user permissions, UAT support, attachment handling, and production deployment",
-        "Improved REST API and SQL performance by approximately 15% and enhanced database efficiency by approximately 20%"
+        "Delivered REST APIs, SQL business logic, and web apps using C#/.NET, ASP.NET, React, Vue.js, MS SQL Server, and Oracle",
+        "Supported Umbraco CMS workflows, permissions, UAT, attachment handling, and production releases",
+        "Improved API and SQL performance by ~15% and database efficiency by ~20%"
       ]
     },
     {
@@ -191,11 +191,11 @@ const workExperiences = {
       companylogo: require("./assets/images/likonLogo.png"),
       date: "Jun 2017 – Jun 2019\nHong Kong",
       desc:
-        "Built internal HRMS and administration tools with role-based access, workflow digitisation, and operational support.",
+        "Internal HRMS and administration systems with workflow automation and RBAC.",
       descBullets: [
-        "Digitised HR incident-tracking workflows, reducing manual processing workload by approximately 30%",
-        "Implemented RBAC and backend workflow rules to strengthen governance and reduce unauthorised-access risk",
-        "Delivered ASP.NET portal enhancements that reduced repetitive HR tasks by an estimated 20–25%"
+        "Digitised HR incident workflows, reducing manual processing by ~30%",
+        "Implemented RBAC and workflow rules to reduce unauthorised-access risk",
+        "Enhanced ASP.NET portals, cutting repetitive HR admin by ~20–25%"
       ]
     },
     {
@@ -204,10 +204,10 @@ const workExperiences = {
       companylogo: require("./assets/images/SpeedyGroup.png"),
       date: "Aug 2015 – Jun 2017\nHong Kong",
       desc:
-        "Provided IT support for public school environments while building lightweight PHP automation tools.",
+        "School IT support, server troubleshooting, and PHP workflow automation.",
       descBullets: [
-        "Automated attendance and administrative workflows, saving 100+ hours of manual processing annually",
-        "Supported Linux/Windows server environments, troubleshooting, and internal workflow reliability"
+        "Automated attendance and admin workflows, saving 100+ hours annually",
+        "Supported Linux/Windows servers, troubleshooting, and system reliability"
       ]
     },
     {
@@ -216,10 +216,10 @@ const workExperiences = {
       companylogo: require("./assets/images/logo.png"),
       date: "Nov 2017 – Present\nMelbourne / Remote",
       desc:
-        "Delivering responsive, SEO-ready websites for small businesses with maintainable page structures and client-friendly content workflows.",
+        "Responsive, SEO-ready websites for small businesses.",
       descBullets: [
-        "Delivered production-ready business websites with responsive layouts, structured content, and SEO-aligned site architecture",
-        "Built reusable website sections and maintainable structures, reducing future update effort by an estimated 30–40%"
+        "Delivered production-ready business websites with responsive layouts and SEO-aligned structure",
+        "Built reusable page sections, reducing future update effort by ~30–40%"
       ]
     }
   ]

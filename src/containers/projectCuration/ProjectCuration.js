@@ -12,32 +12,41 @@ export default function ProjectCuration() {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <section className="main project-curation" id="project-curation">
-        <h1 className="skills-heading">{projectCurationSection.title}</h1>
-        <p
-          className={
-            isDark ? "dark-mode project-curation-subtitle" : "project-curation-subtitle"
-          }
-        >
-          {projectCurationSection.subtitle}
-        </p>
+    <section className="main project-curation" id="project-curation">
+      <Fade bottom duration={1000} distance="20px">
+        <div>
+          <h1 className="skills-heading">{projectCurationSection.title}</h1>
+          <p
+            className={
+              isDark
+                ? "dark-mode project-curation-subtitle"
+                : "project-curation-subtitle"
+            }
+          >
+            {projectCurationSection.subtitle}
+          </p>
 
-        {projectCurationSection.highlights?.length > 0 && (
-          <ul className="project-curation-highlights">
-            {projectCurationSection.highlights.map((item, index) => (
-              <li key={index} className={isDark ? "dark-mode" : ""}>
-                {item}
-              </li>
-            ))}
-          </ul>
-        )}
+          {projectCurationSection.highlights?.length > 0 && (
+            <ul className="project-curation-highlights">
+              {projectCurationSection.highlights.map((item, index) => (
+                <li key={index} className={isDark ? "dark-mode" : ""}>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </Fade>
 
-        <div className="project-curation-grid">
-          {projectCurationSection.projects.map((project, index) => (
+      <div className="project-curation-grid">
+        {projectCurationSection.projects.map((project, index) => (
+          <Fade bottom duration={800} distance="20px" key={index}>
             <div
-              key={index}
-              className={isDark ? "project-curation-card dark-mode" : "project-curation-card"}
+              className={
+                isDark
+                  ? "project-curation-card dark-mode"
+                  : "project-curation-card"
+              }
             >
               <div className="project-curation-card-top">
                 <span className="project-curation-badge">{project.badge}</span>
@@ -117,9 +126,9 @@ export default function ProjectCuration() {
                 )}
               </div>
             </div>
-          ))}
-        </div>
-      </section>
-    </Fade>
+          </Fade>
+        ))}
+      </div>
+    </section>
   );
 }

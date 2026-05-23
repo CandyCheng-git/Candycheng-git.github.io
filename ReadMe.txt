@@ -11,20 +11,23 @@ docker build -t candychengfolio:latest . && docker run --rm -it \
   -v candychengfolio_node_modules:/app/node_modules \
   candychengfolio:latest sh -lc "npm install && npm start"
 
-## Run Only
+## Rerun Only
 docker run --rm -it \
-  -p 3001:3000 \
+  -p 3000:3000 \
   -v "$PWD":/app \
   -v candychengfolio_node_modules:/app/node_modules \
-  candychengfolio:latest sh -lc "HOST=0.0.0.0 npm start"
+  candychengfolio:latest sh -lc "npm install && npm start"
 
-  
+## Rebuild + re-run
+docker build -t candychengfolio:latest .
+
 docker run --rm -it \
-  -p 8080:3000 \
+  -p 3000:3000 \
   -v "$PWD":/app \
   -v candychengfolio_node_modules:/app/node_modules \
-  candychengfolio:latest sh -lc "HOST=0.0.0.0 npm start"
-  
+  candychengfolio:latest sh -lc "npm install && npm start"
+
+ 
 ```
 
 # Redeploy on GitHub (best practice)
