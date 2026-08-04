@@ -47,12 +47,12 @@ const skillsSection = {
   subTitle:
     "Backend, APIs, SQL, cloud, reporting.",
   skills: [
-    emoji("⚡ Build web apps and dashboards"),
-    emoji("⚡ Design REST APIs and backend logic"),
-    emoji("⚡ Optimise SQL reports and data checks"),
-    emoji("⚡ Support AWS, Azure, Docker, and CI/CD"),
-    emoji("⚡ Use Angular, .NET, React, Node"),
-    emoji("⚡ Turn unclear needs into releases")
+    emoji("⚡ Build web apps and dashboards for real workflows"),
+    emoji("⚡ Design REST APIs and backend logic with clear contracts"),
+    emoji("⚡ Optimise SQL reports, data checks, and automation"),
+    emoji("⚡ Support AWS, Azure, Docker, CI/CD, and deployments"),
+    emoji("⚡ Use Angular, .NET, React, Node, Laravel, and SQL"),
+    emoji("⚡ Turn unclear needs into tested releases and docs")
   ],
 
   softwareSkills: [
