@@ -152,9 +152,10 @@ const workExperiences = {
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul-Aug 2026",
       desc:
-        "Healthcare APIs.",
+        "Healthcare API checks.",
       descBullets: [
-        "Fixed API/auth gaps"
+        "Fixed contract/auth gaps",
+        "Prepared tested commits"
       ]
     },
     {
@@ -163,9 +164,10 @@ const workExperiences = {
       companylogo: require("./assets/images/oncallLogo.png"),
       date: "Jun-Jul 2026",
       desc:
-        "SQL reports + AI UAT.",
+        "SQL reporting and AI UAT.",
       descBullets: [
-        "Built reports; tested calls"
+        "Built report prototype",
+        "Tested 35 call flows"
       ]
     },
     {
@@ -176,7 +178,8 @@ const workExperiences = {
       desc:
         "IoT dashboards.",
       descBullets: [
-        "Built Laravel telemetry"
+        "Built Laravel telemetry",
+        "Improved live visibility"
       ]
     },
     {
@@ -185,9 +188,10 @@ const workExperiences = {
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun-Sep 2025",
       desc:
-        "Product data.",
+        "Product data automation.",
       descBullets: [
-        "Automated SEO; fixed data"
+        "Automated SEO metadata",
+        "Fixed 200+ data gaps"
       ]
     },
     {
@@ -198,7 +202,8 @@ const workExperiences = {
       desc:
         "Enterprise systems.",
       descBullets: [
-        "Built APIs + SQL"
+        "Built APIs and SQL logic",
+        "Supported CMS releases"
       ]
     },
     {
@@ -209,7 +214,8 @@ const workExperiences = {
       desc:
         "HRMS systems.",
       descBullets: [
-        "Built workflows + access"
+        "Digitised HR workflows",
+        "Built access/approval rules"
       ]
     },
     {
@@ -220,7 +226,8 @@ const workExperiences = {
       desc:
         "School IT support.",
       descBullets: [
-        "Automated attendance"
+        "Automated attendance workflows",
+        "Supported Linux/Windows"
       ]
     },
     {
@@ -229,9 +236,10 @@ const workExperiences = {
       companylogo: require("./assets/images/logo.png"),
       date: "2017-Present",
       desc:
-        "Business websites.",
+        "Small-business websites.",
       descBullets: [
-        "Built SEO-ready pages"
+        "Built SEO-ready pages",
+        "Created reusable sections"
       ]
     }
   ]
