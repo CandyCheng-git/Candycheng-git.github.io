@@ -149,7 +149,7 @@ const workExperiences = {
     {
       role: "Developer (Fixed-Term Contract)",
       company: "NostraData Pty Ltd",
-      companylogo: require("./assets/images/logo.png"),
+      companylogo: require("./assets/images/nostradataIcon.png"),
       date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
       desc:
         "Healthcare platform work across legacy PHP/Laravel APIs, external integration, and behavioural-parity verification.",
