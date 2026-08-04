@@ -23,7 +23,7 @@ const greeting = {
   username: "Candy Cheng",
   title: "Hi, I'm Candy",
   subTitle: emoji(
-    "Software Engineer | Backend, Database & Cloud Systems ☁️\nMelbourne-based. I build practical systems across web, APIs, SQL, cloud, and automation."
+    "Software Engineer | Backend, APIs, Data & Platform Delivery\nMelbourne-based. I build practical systems across web, APIs, SQL, cloud, automation, and verification."
   ),
   resumeLink: "https://www.linkedin.com/in/lok-tung-c-hk/",
   displayGreeting: true
@@ -143,9 +143,35 @@ const techStack = {
 const workExperiences = {
   title: "Experience",
   subtitle:
-    "6+ years building backend, database, cloud, and full-stack systems across Australia and Hong Kong.",
+    "8+ years building backend, API, database, cloud, and full-stack systems across health-tech, logistics, IoT, e-commerce, and business operations.",
   display: true,
   experience: [
+    {
+      role: "Developer (Fixed-Term Contract)",
+      company: "NostraData Pty Ltd",
+      companylogo: require("./assets/images/logo.png"),
+      date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
+      desc:
+        "Healthcare platform work across legacy PHP/Laravel APIs, external integration, and behavioural-parity verification.",
+      descBullets: [
+        "Analysed legacy code, API routes, external specifications, Jira tickets, and source-control history to clarify integration risks before implementation",
+        "Implemented and self-tested API conformance and behavioural-parity corrections, resolving contract divergences and an authorisation mapping issue",
+        "Planned risk-tiered verification for sensitive multi-endpoint workflows and prepared reviewable commits before the role concluded"
+      ]
+    },
+    {
+      role: "Database Reporting & Conversational AI Intern",
+      company: "ONCALL Interpreters & Translators",
+      companylogo: require("./assets/images/logo.png"),
+      date: "Jun 2026 - Jul 2026\nMelbourne, Australia",
+      desc:
+        "SQL reporting, data validation, and conversational-AI UAT for interpreter-service workflows.",
+      descBullets: [
+        "Analysed SQL Server booking, billing, cancellation, service-charge, interpreter-payment, and GST data to support reporting requirements",
+        "Developed a parameterised quarterly-report prototype and executed structured QA against representative report outputs",
+        "Executed and documented 35 UAT scenarios across ElevenLabs, Xpertly, and Deepgram, improving traceability for technical review"
+      ]
+    },
     {
       role: "Full-Stack Engineer",
       company: "Camfor",
@@ -232,6 +258,12 @@ const bigProjects = {
   subtitle:
     "Selected professional work with measurable delivery impact.",
   projects: [
+    {
+      image: require("./assets/images/logo.png"),
+      projectName: "Health-Tech API Conformance & Verification",
+      projectDesc:
+        "Analysed legacy PHP/Laravel API behaviour, external specifications, source-control history, and production-like evidence to correct contract divergences, authorisation mapping, and behavioural-parity issues across sensitive healthcare workflows."
+    },
     {
       image: require("./assets/images/camforLogo.png"),
       projectName: "Camfor — IoT Monitoring & Control Dashboard",
@@ -394,7 +426,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Open to Software Engineer, Backend Developer, Full-Stack Developer, and cloud-enabled business systems roles in Melbourne or remote.",
+    "Actively open to Software Engineer, Backend Developer, Full-Stack Developer, and cloud-enabled business systems roles in Melbourne or remote.",
   email_address: "candycheng.it@gmail.com"
 };
 
