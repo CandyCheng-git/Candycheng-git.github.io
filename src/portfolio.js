@@ -147,27 +147,25 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Developer (Fixed-Term Contract)",
+      role: "Developer",
       company: "NostraData Pty Ltd",
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
       desc:
-        "Healthcare APIs and integration.",
+        "Healthcare API work.",
       descBullets: [
-        "Checked legacy APIs and Jira scope",
-        "Fixed API contract and auth gaps",
-        "Prepared tested review commits"
+        "Checked legacy API scope",
+        "Fixed contract/auth gaps"
       ]
     },
     {
-      role: "Database Reporting & Conversational AI",
+      role: "Database Reporting & AI",
       company: "ONCALL Interpreters & Translators",
       companylogo: require("./assets/images/oncallLogo.png"),
       date: "Jun 2026 - Jul 2026\nMelbourne, Australia",
       desc:
-        "SQL reporting and AI UAT.",
+        "SQL reports and AI UAT.",
       descBullets: [
-        "Analysed booking and billing data",
         "Built quarterly report prototype",
         "Tested 35 AI call scenarios"
       ]
@@ -178,24 +176,22 @@ const workExperiences = {
       companylogo: require("./assets/images/camforLogo.png"),
       date: "Nov 2024 – Present\nMelbourne, Australia",
       desc:
-        "IoT monitoring platform.",
+        "IoT dashboard work.",
       descBullets: [
         "Built Laravel telemetry dashboards",
-        "Cut dashboard latency by ~25%",
-        "Reduced manual checks by ~30%"
+        "Cut latency by ~25%"
       ]
     },
     {
-      role: "Backend & Data Analytics",
+      role: "Backend & Data",
       company: "Star Promotional Products",
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun 2025 – Sep 2025\nSydney, Remote",
       desc:
-        "Product data and Azure review.",
+        "Product data automation.",
       descBullets: [
         "Automated SEO for 10,000+ products",
-        "Fixed 200+ catalogue mismatches",
-        "Proposed 10-15% Azure savings"
+        "Fixed 200+ data mismatches"
       ]
     },
     {
@@ -204,11 +200,10 @@ const workExperiences = {
       companylogo: require("./assets/images/kerryLogo.png"),
       date: "Jun 2019 – May 2024\nHong Kong",
       desc:
-        "Enterprise systems for 10,000+ users.",
+        "Enterprise web systems.",
       descBullets: [
         "Built REST APIs and SQL logic",
-        "Supported Umbraco CMS releases",
-        "Improved API and SQL speed"
+        "Supported CMS releases"
       ]
     },
     {
@@ -217,35 +212,34 @@ const workExperiences = {
       companylogo: require("./assets/images/likonLogo.png"),
       date: "Jun 2017 – Jun 2019\nHong Kong",
       desc:
-        "HRMS workflows and access control.",
+        "HRMS workflow systems.",
       descBullets: [
-        "Digitised HR incident workflows",
-        "Built RBAC and approval rules",
-        "Reduced repetitive HR admin"
+        "Digitised HR workflows",
+        "Built access rules"
       ]
     },
     {
-      role: "Technical Support Assistant",
+      role: "IT Support Assistant",
       company: "Speedy Group",
       companylogo: require("./assets/images/SpeedyGroup.png"),
       date: "Aug 2015 – Jun 2017\nHong Kong",
       desc:
-        "School IT support and PHP automation.",
+        "School IT support.",
       descBullets: [
         "Automated attendance workflows",
-        "Supported Linux and Windows servers"
+        "Supported Linux/Windows servers"
       ]
     },
     {
-      role: "Full-Stack Website Developer",
+      role: "Website Developer",
       company: "Self-Employed",
       companylogo: require("./assets/images/logo.png"),
       date: "Nov 2017 – Present\nMelbourne / Remote",
       desc:
-        "SEO-ready small-business websites.",
+        "Small-business websites.",
       descBullets: [
-        "Delivered SEO-ready business sites",
-        "Built reusable page sections"
+        "Built SEO-ready sites",
+        "Created reusable sections"
       ]
     }
   ]
