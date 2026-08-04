@@ -149,7 +149,7 @@ const workExperiences = {
     {
       role: "Developer (Fixed-Term Contract)",
       company: "NostraData Pty Ltd",
-      companylogo: require("./assets/images/nostradataIcon.png"),
+      companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
       desc:
         "Healthcare platform work across legacy PHP/Laravel APIs, external integration, and behavioural-parity verification.",
@@ -160,9 +160,9 @@ const workExperiences = {
       ]
     },
     {
-      role: "Database Reporting & Conversational AI Intern",
+      role: "Database Reporting & Conversational AI",
       company: "ONCALL Interpreters & Translators",
-      companylogo: require("./assets/images/logo.png"),
+      companylogo: require("./assets/images/oncallLogo.png"),
       date: "Jun 2026 - Jul 2026\nMelbourne, Australia",
       desc:
         "SQL reporting, data validation, and conversational-AI UAT for interpreter-service workflows.",
@@ -186,7 +186,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Backend & Data Analytics Intern",
+      role: "Backend & Data Analytics",
       company: "Star Promotional Products",
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun 2025 – Sep 2025\nSydney, Remote",
