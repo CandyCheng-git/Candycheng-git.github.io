@@ -150,7 +150,7 @@ const workExperiences = {
       role: "Developer",
       company: "NostraData Pty Ltd",
       companylogo: require("./assets/images/nostradataLogo.png"),
-      date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
+      date: "Jul-Aug 2026",
       desc:
         "Healthcare APIs.",
       descBullets: [
@@ -161,7 +161,7 @@ const workExperiences = {
       role: "Database Reporting & AI",
       company: "ONCALL Interpreters & Translators",
       companylogo: require("./assets/images/oncallLogo.png"),
-      date: "Jun 2026 - Jul 2026\nMelbourne, Australia",
+      date: "Jun-Jul 2026",
       desc:
         "SQL reports + AI UAT.",
       descBullets: [
@@ -172,7 +172,7 @@ const workExperiences = {
       role: "Full-Stack Engineer",
       company: "Camfor",
       companylogo: require("./assets/images/camforLogo.png"),
-      date: "Nov 2024 – Present\nMelbourne, Australia",
+      date: "Nov 2024-Present",
       desc:
         "IoT dashboards.",
       descBullets: [
@@ -183,7 +183,7 @@ const workExperiences = {
       role: "Backend & Data",
       company: "Star Promotional Products",
       companylogo: require("./assets/images/starpromoLogo.png"),
-      date: "Jun 2025 – Sep 2025\nSydney, Remote",
+      date: "Jun-Sep 2025",
       desc:
         "Product data.",
       descBullets: [
@@ -194,7 +194,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "KLN Logistics Group Limited",
       companylogo: require("./assets/images/kerryLogo.png"),
-      date: "Jun 2019 – May 2024\nHong Kong",
+      date: "2019-2024",
       desc:
         "Enterprise systems.",
       descBullets: [
@@ -205,7 +205,7 @@ const workExperiences = {
       role: "Programmer",
       company: "Lik On Security Ltd",
       companylogo: require("./assets/images/likonLogo.png"),
-      date: "Jun 2017 – Jun 2019\nHong Kong",
+      date: "2017-2019",
       desc:
         "HRMS systems.",
       descBullets: [
@@ -216,7 +216,7 @@ const workExperiences = {
       role: "IT Support Assistant",
       company: "Speedy Group",
       companylogo: require("./assets/images/SpeedyGroup.png"),
-      date: "Aug 2015 – Jun 2017\nHong Kong",
+      date: "2015-2017",
       desc:
         "School IT support.",
       descBullets: [
@@ -227,7 +227,7 @@ const workExperiences = {
       role: "Website Developer",
       company: "Self-Employed",
       companylogo: require("./assets/images/logo.png"),
-      date: "Nov 2017 – Present\nMelbourne / Remote",
+      date: "2017-Present",
       desc:
         "Business websites.",
       descBullets: [
