@@ -152,10 +152,10 @@ const workExperiences = {
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul-Aug 2026",
       desc:
-        "Healthcare API checks.",
+        "Healthcare API checks and fixes.",
       descBullets: [
-        "Fixed contract/auth gaps",
-        "Prepared tested commits"
+        "Reviewed legacy API scope",
+        "Fixed contract/auth gaps with tests"
       ]
     },
     {
@@ -164,10 +164,10 @@ const workExperiences = {
       companylogo: require("./assets/images/oncallLogo.png"),
       date: "Jun-Jul 2026",
       desc:
-        "SQL reporting and AI UAT.",
+        "SQL reporting and AI call testing.",
       descBullets: [
         "Built report prototype",
-        "Tested 35 call flows"
+        "Tested 35 call flows and data"
       ]
     },
     {
@@ -176,10 +176,10 @@ const workExperiences = {
       companylogo: require("./assets/images/camforLogo.png"),
       date: "Nov 2024-Present",
       desc:
-        "IoT dashboards.",
+        "IoT dashboards and telemetry.",
       descBullets: [
-        "Built Laravel telemetry",
-        "Improved live visibility"
+        "Built Laravel monitoring views",
+        "Improved visibility and response"
       ]
     },
     {
@@ -191,7 +191,7 @@ const workExperiences = {
         "Product data automation.",
       descBullets: [
         "Automated SEO metadata",
-        "Fixed 200+ data gaps"
+        "Fixed 200+ catalogue/pricing gaps"
       ]
     },
     {
@@ -200,10 +200,10 @@ const workExperiences = {
       companylogo: require("./assets/images/kerryLogo.png"),
       date: "2019-2024",
       desc:
-        "Enterprise systems.",
+        "Enterprise systems for 10,000+ users.",
       descBullets: [
         "Built APIs and SQL logic",
-        "Supported CMS releases"
+        "Supported CMS releases and UAT"
       ]
     },
     {
@@ -212,10 +212,10 @@ const workExperiences = {
       companylogo: require("./assets/images/likonLogo.png"),
       date: "2017-2019",
       desc:
-        "HRMS systems.",
+        "HRMS workflow systems.",
       descBullets: [
-        "Digitised HR workflows",
-        "Built access/approval rules"
+        "Digitised HR incident workflows",
+        "Built access and approval rules"
       ]
     },
     {
@@ -227,7 +227,7 @@ const workExperiences = {
         "School IT support.",
       descBullets: [
         "Automated attendance workflows",
-        "Supported Linux/Windows"
+        "Supported Linux/Windows servers"
       ]
     },
     {
@@ -238,8 +238,8 @@ const workExperiences = {
       desc:
         "Small-business websites.",
       descBullets: [
-        "Built SEO-ready pages",
-        "Created reusable sections"
+        "Built SEO-ready responsive pages",
+        "Created reusable content sections"
       ]
     }
   ]
