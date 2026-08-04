@@ -23,7 +23,7 @@ const greeting = {
   username: "Candy Cheng",
   title: "Hi, I'm Candy",
   subTitle: emoji(
-    "Software Engineer | Backend, APIs, Data & Platform Delivery\nMelbourne-based. I build practical systems across web, APIs, SQL, cloud, automation, and verification."
+    "Software Engineer | Backend & APIs\nI build APIs, SQL, cloud, automation."
   ),
   resumeLink: "https://www.linkedin.com/in/lok-tung-c-hk/",
   displayGreeting: true
@@ -45,14 +45,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Build",
   subTitle:
-    "End-to-end systems: frontend, API, database, cloud deployment, data automation, and business reporting.",
+    "Backend, APIs, SQL, cloud, reporting.",
   skills: [
-    emoji("⚡ Build responsive web apps and dashboards with Angular, React, Vue.js, Laravel, Livewire, Tailwind CSS, and Umbraco CMS"),
-    emoji("⚡ Design REST APIs, backend services, and SQL-driven business logic for enterprise workflows"),
-    emoji("⚡ Optimise reporting, data validation, and automation using SQL, Python, and backend integrations"),
-    emoji("⚡ Support cloud and deployment workflows using AWS, Azure, Docker, GitHub Actions, and CI/CD"),
-    emoji("⚡ Verified project stack includes Angular 21, .NET 9 / ASP.NET Core Web API, React 18, Next.js 16, TypeScript 5.x, Node.js 20 CI, Express 4, PostgreSQL 15, Docker, xUnit, Vitest, Supertest, and Playwright"),
-    emoji("⚡ Turn unclear business requirements into maintainable systems, documentation, tests, and working releases")
+    emoji("⚡ Build web apps and dashboards"),
+    emoji("⚡ Design REST APIs and backend logic"),
+    emoji("⚡ Optimise SQL reports and data checks"),
+    emoji("⚡ Support AWS, Azure, Docker, and CI/CD"),
+    emoji("⚡ Use Angular, .NET, React, Node"),
+    emoji("⚡ Turn unclear needs into releases")
   ],
 
   softwareSkills: [
@@ -98,27 +98,27 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "Kaplan Business School (Melbourne, AU)",
+      schoolName: "Kaplan Business School",
       logo: require("./assets/images/kaplanLogo.png"),
-      subHeader: "Master of Information Technology (Analytics Specialisation)",
+      subHeader: "Master of IT - Analytics",
       duration: "Jul 2024 – Apr 2026",
-      desc: "Focused on analytics, software delivery, cloud systems, and practical engineering.",
+      desc: "Analytics, cloud, and delivery.",
       descBullets: ["CGPA: 6.67 / 7.0", "Academic Excellence Award"]
     },
     {
-      schoolName: "Staffordshire University (Hong Kong)",
+      schoolName: "Staffordshire University",
       logo: require("./assets/images/staffordshireLogo.png"),
-      subHeader: "Bachelor of Science with Honours in Computer Science",
+      subHeader: "BSc (Hons) Computer Science",
       duration: "Completed Jun 2019",
-      desc: "Completed while building professional software engineering experience.",
+      desc: "Completed alongside industry work.",
       descBullets: []
     },
     {
-      schoolName: "CUHK School of Continuing and Professional Studies (Hong Kong)",
+      schoolName: "CUHK SCOPE",
       logo: require("./assets/images/cuhkscopeLogo.png"),
-      subHeader: "Higher Diploma in Network and Mobile Computing",
+      subHeader: "Higher Diploma - Network & Mobile",
       duration: "Completed Mar 2015",
-      desc: "Foundation in networking, mobile computing, systems, and programming.",
+      desc: "Networking, mobile, systems, and code.",
       descBullets: ["CGPA: 3.0 / 4.0"]
     }
   ]
@@ -143,7 +143,7 @@ const techStack = {
 const workExperiences = {
   title: "Experience",
   subtitle:
-    "8+ years building backend, API, database, cloud, and full-stack systems across health-tech, logistics, IoT, e-commerce, and business operations.",
+    "8+ yrs in backend, APIs, SQL, cloud.",
   display: true,
   experience: [
     {
@@ -152,11 +152,11 @@ const workExperiences = {
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
       desc:
-        "Healthcare platform work across legacy PHP/Laravel APIs, external integration, and behavioural-parity verification.",
+        "Healthcare APIs and integration.",
       descBullets: [
-        "Analysed legacy code, API routes, external specifications, Jira tickets, and source-control history to clarify integration risks before implementation",
-        "Implemented and self-tested API conformance and behavioural-parity corrections, resolving contract divergences and an authorisation mapping issue",
-        "Planned risk-tiered verification for sensitive multi-endpoint workflows and prepared reviewable commits before the role concluded"
+        "Checked legacy APIs and Jira scope",
+        "Fixed API contract and auth gaps",
+        "Prepared tested review commits"
       ]
     },
     {
@@ -165,11 +165,11 @@ const workExperiences = {
       companylogo: require("./assets/images/oncallLogo.png"),
       date: "Jun 2026 - Jul 2026\nMelbourne, Australia",
       desc:
-        "SQL reporting, data validation, and conversational-AI UAT for interpreter-service workflows.",
+        "SQL reporting and AI UAT.",
       descBullets: [
-        "Analysed SQL Server booking, billing, cancellation, service-charge, interpreter-payment, and GST data to support reporting requirements",
-        "Developed a parameterised quarterly-report prototype and executed structured QA against representative report outputs",
-        "Executed and documented 35 UAT scenarios across ElevenLabs, Xpertly, and Deepgram, improving traceability for technical review"
+        "Analysed booking and billing data",
+        "Built quarterly report prototype",
+        "Tested 35 AI call scenarios"
       ]
     },
     {
@@ -178,11 +178,11 @@ const workExperiences = {
       companylogo: require("./assets/images/camforLogo.png"),
       date: "Nov 2024 – Present\nMelbourne, Australia",
       desc:
-        "Cloud-connected IoT monitoring platform for agriculture.",
+        "IoT monitoring platform.",
       descBullets: [
-        "Built Laravel, Livewire, Tailwind, and Docker dashboards for sensors, thresholds, alerts, and watering events",
-        "Improved dashboard latency by ~25% through backend flow and Livewire rendering optimisation",
-        "Reduced manual checks by ~30% with clearer telemetry and operational visibility"
+        "Built Laravel telemetry dashboards",
+        "Cut dashboard latency by ~25%",
+        "Reduced manual checks by ~30%"
       ]
     },
     {
@@ -191,11 +191,11 @@ const workExperiences = {
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun 2025 – Sep 2025\nSydney, Remote",
       desc:
-        "nopCommerce data operations, SEO automation, supplier validation, and Azure cost review.",
+        "Product data and Azure review.",
       descBullets: [
-        "Automated SEO metadata for 10,000+ products, cutting manual workload by ~40%",
-        "Resolved 200+ supplier/backend mismatches across pricing, decoration, and catalogue data",
-        "Reviewed AUD 1,047/month Azure spend and proposed 10–15% savings"
+        "Automated SEO for 10,000+ products",
+        "Fixed 200+ catalogue mismatches",
+        "Proposed 10-15% Azure savings"
       ]
     },
     {
@@ -204,11 +204,11 @@ const workExperiences = {
       companylogo: require("./assets/images/kerryLogo.png"),
       date: "Jun 2019 – May 2024\nHong Kong",
       desc:
-        "Enterprise HR, finance, CMS, and operational systems for 10,000+ users.",
+        "Enterprise systems for 10,000+ users.",
       descBullets: [
-        "Delivered REST APIs, SQL business logic, and web apps using C#/.NET, ASP.NET, React, Vue.js, MS SQL Server, and Oracle",
-        "Supported Umbraco CMS workflows, permissions, UAT, attachment handling, and production releases",
-        "Improved API and SQL performance by ~15% and database efficiency by ~20%"
+        "Built REST APIs and SQL logic",
+        "Supported Umbraco CMS releases",
+        "Improved API and SQL speed"
       ]
     },
     {
@@ -217,11 +217,11 @@ const workExperiences = {
       companylogo: require("./assets/images/likonLogo.png"),
       date: "Jun 2017 – Jun 2019\nHong Kong",
       desc:
-        "Internal HRMS and administration systems with workflow automation and RBAC.",
+        "HRMS workflows and access control.",
       descBullets: [
-        "Digitised HR incident workflows, reducing manual processing by ~30%",
-        "Implemented RBAC and workflow rules to reduce unauthorised-access risk",
-        "Enhanced ASP.NET portals, cutting repetitive HR admin by ~20–25%"
+        "Digitised HR incident workflows",
+        "Built RBAC and approval rules",
+        "Reduced repetitive HR admin"
       ]
     },
     {
@@ -230,10 +230,10 @@ const workExperiences = {
       companylogo: require("./assets/images/SpeedyGroup.png"),
       date: "Aug 2015 – Jun 2017\nHong Kong",
       desc:
-        "School IT support, server troubleshooting, and PHP workflow automation.",
+        "School IT support and PHP automation.",
       descBullets: [
-        "Automated attendance and admin workflows, saving 100+ hours annually",
-        "Supported Linux/Windows servers, troubleshooting, and system reliability"
+        "Automated attendance workflows",
+        "Supported Linux and Windows servers"
       ]
     },
     {
@@ -242,10 +242,10 @@ const workExperiences = {
       companylogo: require("./assets/images/logo.png"),
       date: "Nov 2017 – Present\nMelbourne / Remote",
       desc:
-        "Responsive, SEO-ready websites for small businesses.",
+        "SEO-ready small-business websites.",
       descBullets: [
-        "Delivered production-ready business websites with responsive layouts and SEO-aligned structure",
-        "Built reusable page sections, reducing future update effort by ~30–40%"
+        "Delivered SEO-ready business sites",
+        "Built reusable page sections"
       ]
     }
   ]
@@ -256,25 +256,25 @@ const workExperiences = {
 const bigProjects = {
   title: "Flagship Work",
   subtitle:
-    "Selected professional work with measurable delivery impact.",
+    "Selected work with measurable impact.",
   projects: [
     {
       image: require("./assets/images/logo.png"),
-      projectName: "Health-Tech API Conformance & Verification",
+      projectName: "Health-Tech API Verification",
       projectDesc:
-        "Analysed legacy PHP/Laravel API behaviour, external specifications, source-control history, and production-like evidence to correct contract divergences, authorisation mapping, and behavioural-parity issues across sensitive healthcare workflows."
+        "Fixed API, auth, and parity gaps."
     },
     {
       image: require("./assets/images/camforLogo.png"),
-      projectName: "Camfor — IoT Monitoring & Control Dashboard",
+      projectName: "Camfor IoT Dashboard",
       projectDesc:
-        "Built cloud-connected dashboards for an IoT auto-watering platform using Laravel, Livewire, Tailwind CSS, and Docker. Improved dashboard latency by about 25% and reduced manual data checks by an estimated 30% through clearer telemetry and operational visibility."
+        "Built Laravel IoT dashboards."
     },
     {
       image: require("./assets/images/project_edgekitchens.png"),
-      projectName: "Edge Kitchens & Bathrooms — SEO & Lead-Generation Website",
+      projectName: "Edge Kitchens Website",
       projectDesc:
-        "Designed and delivered a responsive business website focused on clean UX, mobile usability, SEO foundations, structured content, galleries, and contact capture.",
+        "Built a responsive SEO lead website.",
       footerLink: [
         {
           name: "Live Website",
@@ -284,9 +284,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/kerryLogo.png"),
-      projectName: "KLN Logistics — Enterprise Workflow Systems",
+      projectName: "KLN Enterprise Systems",
       projectDesc:
-        "Delivered enterprise workflow systems across HR, finance, operations, and corporate web platforms. Worked across ASP.NET, PHP, Vue.js, React, React Native, MS SQL Server, Oracle, and Umbraco CMS. Improved platform performance by about 15% and reporting efficiency by about 20%."
+        "Built HR, finance, and CMS systems."
     }
   ],
   display: true
@@ -297,43 +297,43 @@ const bigProjects = {
 const projectCurationSection = {
   title: "Selected Projects",
   subtitle:
-    "Focused projects that prove backend, database, API, full-stack, CI/CD, and applied data capability.",
+    "Backend, API, SQL, CI, and data proof.",
   display: true,
   highlights: [
-    "Quality over quantity: each project proves a specific engineering skill recruiters can quickly understand.",
-    "Version details are shown only where there is project evidence, not as empty keyword stuffing."
+    "Each project shows a clear skill.",
+    "Versions shown only when proven."
   ],
   projects: [
     {
       title: "SearchOps Job Platform",
-      subtitle: "SEO-Aware Job Platform | Full-Stack + CI/CD",
+      subtitle: "Job Platform | Full-Stack + CI",
       description:
-        "Built a job-search platform prototype focused on backend API design, Prisma/PostgreSQL data modelling, frontend integration, Docker-based development, automated tests, and GitHub Actions CI workflow.",
+        "Job API, PostgreSQL, CI, and tests.",
       tags: ["TypeScript 5.x", "Node.js 20 CI", "Express 4", "Next.js 16", "React 18", "PostgreSQL 15", "Docker", "GitHub Actions", "Vitest", "Supertest", "Playwright"],
       badge: "full-stack platform",
-      proof: "API design, database modelling, CI workflow, testing strategy, and job-platform domain thinking",
-      featuredMetric: "Backend + data model + CI proof",
+      proof: "API, data model, CI, tests",
+      featuredMetric: "Backend + data + CI",
       github: "https://github.com/CandyCheng-git/Searchops-Job-Platform"
     },
     {
       title: "Global360 TODO List",
-      subtitle: "Full-Stack Assessment | Angular 21 + .NET 9 Web API",
+      subtitle: "Angular + .NET Assessment",
       description:
-        "Built a clean TODO list app using Angular 21 frontend and .NET 9 Web API backend, with in-memory data storage, Docker-based run instructions, Swagger API testing, and frontend/backend test coverage.",
+        "Angular + .NET TODO app with tests.",
       tags: ["Angular 21", ".NET 9 Web API", "C#", "Docker", "Swagger", "xUnit", "Vitest", "Testing"],
       badge: "full-stack",
-      proof: "frontend/backend integration, API design, testing, and clean assessment delivery",
-      featuredMetric: "Built and tested under deadline",
+      proof: "frontend, backend, API, tests",
+      featuredMetric: "Built and tested",
       github: "https://github.com/CandyCheng-git/global360-todo-list"
     },
     {
       title: "C# API Contract Demo",
       subtitle: "Backend API Design | ASP.NET Core",
       description:
-        "Designed a REST API demo focused on clean contracts, request validation, Swagger documentation, structured error handling, and integration-ready workflows.",
+        "Clean ASP.NET API contracts.",
       tags: ["C#", "ASP.NET Core", "Swagger", "Validation", "Postman"],
       badge: "backend",
-      proof: "contract-first API design, validation standards, and integration clarity",
+      proof: "API contracts and validation",
       featuredMetric: "Clean API contracts",
       github: "https://github.com/CandyCheng-git/Csharp-API-Contract-Demo"
     },
@@ -341,32 +341,32 @@ const projectCurationSection = {
       title: "SQL Report Optimizer Demo",
       subtitle: "Database Performance | SQL Server",
       description:
-        "Built a reporting optimisation demo using slow-query baselines, indexing, summary tables, and incremental refresh patterns to reduce reporting bottlenecks.",
+        "SQL tuning and reporting demo.",
       tags: ["T-SQL", "Indexing", "Reporting", "Performance", "SQL Server"],
       badge: "sql performance",
-      proof: "query tuning, reporting performance, and business-system thinking",
-      featuredMetric: "Slow reports → scalable reporting",
+      proof: "query tuning and reporting",
+      featuredMetric: "Slow reports to fast reports",
       github: "https://github.com/CandyCheng-git/MSSQL-Report-Optimizer-Demo"
     },
     {
       title: "C# Promotion Engine",
       subtitle: "Business Rules Engine | Pricing Logic",
       description:
-        "Implemented promotion and discount logic to model real-world pricing rules, conflicting conditions, and maintainable backend decision flows.",
+        "Tested pricing rules engine.",
       tags: ["C#", "OOP", "Business Logic", "Pricing", "Rules Engine"],
       badge: "business rules",
-      proof: "backend logic, code structure, commerce workflows, and maintainable rule handling",
-      featuredMetric: "Complex rules made testable",
+      proof: "pricing rules and clean code",
+      featuredMetric: "Rules made testable",
       github: "https://github.com/CandyCheng-git/Csharp-Promotion-Engine"
     },
     {
       title: "Car Price Prediction",
       subtitle: "Applied Machine Learning | Regression",
       description:
-        "Built a machine learning project to predict used-car prices using data preparation, EDA, feature engineering, model training, and evaluation.",
+        "Regression ML price model.",
       tags: ["Python", "Pandas", "Scikit-learn", "Regression", "Jupyter"],
       badge: "applied ml",
-      proof: "practical ML workflow, data preparation, model evaluation, and business-friendly problem framing",
+      proof: "EDA, modelling, evaluation",
       featuredMetric: "Applied ML with business context",
       github: "https://github.com/CandyCheng-git/AI-ML-Car_Price_Prediction-Assessment-2025-01"
     }
@@ -378,11 +378,11 @@ const projectCurationSection = {
 const achievementSection = {
   title: emoji("Certifications & Awards 🏆"),
   subtitle:
-    "Selected proof of technical learning, delivery quality, and recognised performance.",
+    "Proof of learning and delivery.",
   achievementsCards: [
     {
       title: "Academic Excellence Award",
-      subtitle: "Kaplan Business School — Master of IT, 2026",
+      subtitle: "Kaplan - Master of IT, 2026",
       image: require("./assets/images/kaplanLogo.png"),
       imageAlt: "Kaplan Business School",
       footerLink: []
@@ -417,7 +417,7 @@ const achievementSection = {
 const resumeSection = {
   title: "Resume",
   subtitle:
-    "A concise view of my software engineering, backend, database, cloud, and automation experience.",
+    "Backend, SQL, cloud, and automation.",
   display: true
 };
 
@@ -426,7 +426,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Actively open to Software Engineer, Backend Developer, Full-Stack Developer, and cloud-enabled business systems roles in Melbourne or remote.",
+    "Open to software roles.",
   email_address: "candycheng.it@gmail.com"
 };
 
