@@ -152,10 +152,9 @@ const workExperiences = {
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul 2026 - Aug 2026\nMelbourne, Australia",
       desc:
-        "Healthcare API work.",
+        "Healthcare APIs.",
       descBullets: [
-        "Checked legacy API scope",
-        "Fixed contract/auth gaps"
+        "Fixed API/auth gaps"
       ]
     },
     {
@@ -164,10 +163,9 @@ const workExperiences = {
       companylogo: require("./assets/images/oncallLogo.png"),
       date: "Jun 2026 - Jul 2026\nMelbourne, Australia",
       desc:
-        "SQL reports and AI UAT.",
+        "SQL reports + AI UAT.",
       descBullets: [
-        "Built quarterly report prototype",
-        "Tested 35 AI call scenarios"
+        "Built reports; tested calls"
       ]
     },
     {
@@ -176,10 +174,9 @@ const workExperiences = {
       companylogo: require("./assets/images/camforLogo.png"),
       date: "Nov 2024 – Present\nMelbourne, Australia",
       desc:
-        "IoT dashboard work.",
+        "IoT dashboards.",
       descBullets: [
-        "Built Laravel telemetry dashboards",
-        "Cut latency by ~25%"
+        "Built Laravel telemetry"
       ]
     },
     {
@@ -188,10 +185,9 @@ const workExperiences = {
       companylogo: require("./assets/images/starpromoLogo.png"),
       date: "Jun 2025 – Sep 2025\nSydney, Remote",
       desc:
-        "Product data automation.",
+        "Product data.",
       descBullets: [
-        "Automated SEO for 10,000+ products",
-        "Fixed 200+ data mismatches"
+        "Automated SEO; fixed data"
       ]
     },
     {
@@ -200,10 +196,9 @@ const workExperiences = {
       companylogo: require("./assets/images/kerryLogo.png"),
       date: "Jun 2019 – May 2024\nHong Kong",
       desc:
-        "Enterprise web systems.",
+        "Enterprise systems.",
       descBullets: [
-        "Built REST APIs and SQL logic",
-        "Supported CMS releases"
+        "Built APIs + SQL"
       ]
     },
     {
@@ -212,10 +207,9 @@ const workExperiences = {
       companylogo: require("./assets/images/likonLogo.png"),
       date: "Jun 2017 – Jun 2019\nHong Kong",
       desc:
-        "HRMS workflow systems.",
+        "HRMS systems.",
       descBullets: [
-        "Digitised HR workflows",
-        "Built access rules"
+        "Built workflows + access"
       ]
     },
     {
@@ -226,8 +220,7 @@ const workExperiences = {
       desc:
         "School IT support.",
       descBullets: [
-        "Automated attendance workflows",
-        "Supported Linux/Windows servers"
+        "Automated attendance"
       ]
     },
     {
@@ -236,10 +229,9 @@ const workExperiences = {
       companylogo: require("./assets/images/logo.png"),
       date: "Nov 2017 – Present\nMelbourne / Remote",
       desc:
-        "Small-business websites.",
+        "Business websites.",
       descBullets: [
-        "Built SEO-ready sites",
-        "Created reusable sections"
+        "Built SEO-ready pages"
       ]
     }
   ]
