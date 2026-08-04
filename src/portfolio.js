@@ -259,7 +259,7 @@ const bigProjects = {
     "Selected work with measurable impact.",
   projects: [
     {
-      image: require("./assets/images/logo.png"),
+      image: require("./assets/images/nostradataLogo.png"),
       projectName: "Health-Tech API Verification",
       projectDesc:
         "Fixed API, auth, and parity gaps."
