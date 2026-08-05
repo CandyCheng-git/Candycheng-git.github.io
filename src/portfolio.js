@@ -147,7 +147,7 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Developer",
+      role: "Software Engineer",
       company: "NostraData Pty Ltd",
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul-Aug 2026",
