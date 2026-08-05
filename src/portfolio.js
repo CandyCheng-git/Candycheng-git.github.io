@@ -174,6 +174,7 @@ const workExperiences = {
       role: "Full-Stack Engineer",
       company: "Camfor",
       companylogo: require("./assets/images/camforLogo.png"),
+      bannerColor: "rgb(18 168 157)",
       date: "Nov 2024-Present",
       desc:
         "IoT dashboards and telemetry.",
