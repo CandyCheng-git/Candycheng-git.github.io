@@ -167,7 +167,7 @@ const workExperiences = {
         "SQL reporting and AI call testing.",
       descBullets: [
         "Built report prototype",
-        "Tested 35 call flows and data"
+        "Tested ElevenLabs, Xpertly, Deepgram"
       ]
     },
     {
