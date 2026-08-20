@@ -154,8 +154,9 @@ const workExperiences = {
       desc:
         "Healthcare API checks and fixes.",
       descBullets: [
-        "Reviewed legacy API scope",
-        "Fixed contract/auth gaps with tests"
+        "3 healthcare APIs", 
+        "1 Laravel migration + 2 new APIs", 
+        "multi-endpoint integration"
       ]
     },
     {
@@ -166,8 +167,9 @@ const workExperiences = {
       desc:
         "SQL reporting and AI call testing.",
       descBullets: [
-        "Built report prototype",
-        "Tested ElevenLabs, Xpertly, Deepgram"
+        "3 technology vendors", 
+        "5 UAT scenario ", 
+        "SQL, JSON/CSV and conversational-AI validation"
       ]
     },
     {
@@ -179,8 +181,9 @@ const workExperiences = {
       desc:
         "IoT dashboards and telemetry.",
       descBullets: [
-        "Built Laravel monitoring views",
-        "Improved visibility and response"
+        "4 IoT monitoring domains", 
+        "CEO + 4+ cross-functional stakeholders", 
+        "backend, telemetry and dashboard delivery"
       ]
     },
     {
@@ -191,8 +194,8 @@ const workExperiences = {
       desc:
         "Product data automation.",
       descBullets: [
-        "Automated SEO metadata",
-        "Fixed 200+ catalogue/pricing gaps"
+        "10,000+ products",
+        "multiple supplier feeds, pricing tiers, decoration rules and SEO metadataCamfor"
       ]
     },
     {
@@ -203,8 +206,10 @@ const workExperiences = {
       desc:
         "Enterprise systems for 10,000+ users.",
       descBullets: [
-        "Built APIs and SQL logic",
-        "Supported CMS releases and UAT"
+        "5+ enterprise systems", 
+        "5+ departments", 
+        "3+ development teams ", 
+        "10,000+ users"
       ]
     },
     {
@@ -215,8 +220,8 @@ const workExperiences = {
       desc:
         "HRMS workflow systems.",
       descBullets: [
-        "Digitised HR incident workflows",
-        "Built access and approval rules"
+        "3 HR workflow domains",
+        "incident tracking, approval workflows and role-based access"
       ]
     },
     {
@@ -227,8 +232,8 @@ const workExperiences = {
       desc:
         "School IT support.",
       descBullets: [
-        "Automated attendance workflows",
-        "Supported Linux/Windows servers"
+        "2 public-school campuses",
+        "Linux/Windows support and PHP workflow automation"
       ]
     },
     {
@@ -239,8 +244,7 @@ const workExperiences = {
       desc:
         "Small-business websites.",
       descBullets: [
-        "Built SEO-ready responsive pages",
-        "Created reusable content sections"
+        "Web/e-commerce projects across product, category, multilingual content, media and administration workflows"
       ]
     }
   ]
