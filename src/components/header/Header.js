@@ -7,7 +7,7 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  projectCurationSection,
+  selectedWorkSection,
   achievementSection,
   resumeSection
 } from "../../portfolio";
@@ -17,7 +17,7 @@ function Header() {
 
   const viewSkills = skillsSection.display;
   const viewExperience = workExperiences.display;
-  const viewProjects = projectCurationSection.display;
+  const viewProjects = selectedWorkSection.display;
   const viewAchievement = achievementSection.display;
   const viewResume = resumeSection.display;
 
@@ -66,7 +66,7 @@ function Header() {
 
           {viewProjects && (
             <li>
-              <a href="#project-curation">Projects</a>
+              <a href="#selected-work">Projects</a>
             </li>
           )}
 
