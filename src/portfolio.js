@@ -208,7 +208,7 @@ const workExperiences = {
       descBullets: [
         "5+ enterprise systems", 
         "5+ departments", 
-        "3+ development teams ", 
+        "3+ development teams ",
         "10,000+ users"
       ]
     },
@@ -381,6 +381,7 @@ const selectedWorkSection = {
     "Featured",
     "Backend & API",
     "Full-Stack",
+    "System Design",
     "SQL & Data",
     "AI / ML",
     "Web",
@@ -390,14 +391,14 @@ const selectedWorkSection = {
     {
       title: "Health-Tech API Verification",
       description:
-        "Fixed API, auth, and parity gaps.",
+        "Verified healthcare API behaviour against specifications and legacy flows, resolving authentication, contract, and response-parity gaps.",
       companyName: "NostraData Pty Ltd",
       categories: ["Backend & API"],
       featured: true,
-      tags: [],
+      tags: ["Laravel", "REST API", "Authentication", "API Verification"],
       badge: "commercial api",
-      proof: null,
-      featuredMetric: "API, auth, and parity fixes",
+      proof: "contract verification, auth debugging, regression evidence",
+      featuredMetric: "3 API contract divergences resolved",
       github: null,
       demo: null,
       image: require("./assets/images/nostradataLogo.png")
@@ -405,14 +406,14 @@ const selectedWorkSection = {
     {
       title: "Camfor IoT Dashboard",
       description:
-        "Built Laravel IoT dashboards.",
+        "Built Laravel and Livewire dashboards for API-driven IoT telemetry and operational monitoring workflows.",
       companyName: "Camfor",
       categories: ["Full-Stack", "Backend & API", "Web"],
       featured: false,
-      tags: [],
+      tags: ["Laravel", "Livewire", "Tailwind", "REST API", "IoT"],
       badge: "commercial iot",
-      proof: null,
-      featuredMetric: "Laravel IoT dashboards",
+      proof: "telemetry mapping, dashboard workflows, responsive UI",
+      featuredMetric: "4 IoT monitoring domains",
       github: null,
       demo: null,
       image: require("./assets/images/camforLogo.png")
@@ -420,14 +421,14 @@ const selectedWorkSection = {
     {
       title: "Edge Kitchens Website",
       description:
-        "Built a responsive SEO lead website.",
+        "Built and shipped a responsive lead-generation website focused on mobile usability, service discovery, and SEO.",
       companyName: "Edge Kitchens and Bathrooms",
       categories: ["Web"],
       featured: false,
-      tags: [],
+      tags: ["Responsive Web", "SEO", "Client Delivery"],
       badge: "client website",
-      proof: null,
-      featuredMetric: "Responsive SEO lead website",
+      proof: "production website, responsive UX, lead-generation flow",
+      featuredMetric: "Live production website",
       github: null,
       demo: "https://edgekitchensandbathrooms.com.au/",
       image: require("./assets/images/project_edgekitchens.png")
@@ -435,17 +436,47 @@ const selectedWorkSection = {
     {
       title: "KLN Enterprise Systems",
       description:
-        "Built HR, finance, and CMS systems.",
+        "Built and maintained enterprise HR, finance, and CMS workflows supporting operational teams across multiple departments.",
       companyName: "KLN Logistics Group Limited",
       categories: ["Full-Stack", "SQL & Data", "Web"],
       featured: false,
-      tags: [],
+      tags: ["ASP.NET", "SQL", "Enterprise Systems", "CMS"],
       badge: "enterprise systems",
-      proof: null,
-      featuredMetric: "HR, finance, and CMS systems",
+      proof: "business workflows, enterprise data, cross-team delivery",
+      featuredMetric: "10,000+ users across 5+ departments",
       github: null,
       demo: null,
       image: require("./assets/images/kerryLogo.png")
+    },
+    {
+      title: "Mini Hub Backend Challenge",
+      description:
+        "Extended a multi-tenant backend with registration APIs, capacity checks, Melbourne time handling, and isolation-focused regression tests.",
+      companyName: null,
+      categories: ["Backend & API", "SQL & Data"],
+      featured: true,
+      tags: [".NET 10", "Azure Functions", "EF Core", "PostgreSQL", "xUnit", "Multi-tenancy"],
+      badge: "technical assessment",
+      proof: "API endpoint, tenant isolation, capacity handling, regression tests",
+      featuredMetric: "Backend fixes + regression tests",
+      github: "https://github.com/CandyCheng-git/hub-challenge/tree/challenge/MCH-2609-01",
+      demo: null,
+      image: null
+    },
+    {
+      title: "Centralised Patient Monitoring",
+      description:
+        "Designed a healthcare monitoring workflow from requirements through ERD, validation rules, reporting, and proposed .NET architecture.",
+      companyName: null,
+      categories: ["System Design", "SQL & Data"],
+      featured: true,
+      tags: ["SQL Server", "ERD", "Data Modelling", "Validation", "Healthcare", "ASP.NET Core (Proposed)"],
+      badge: "system design case study",
+      proof: "requirements, ERD, workflow, validation, reporting",
+      featuredMetric: "Hospital → Patient → Encounter → DailyLog",
+      github: "https://github.com/CandyCheng-git/centralised-patient-monitoring-system",
+      demo: "https://vic-care-flow.lovable.app/",
+      image: null
     },
     {
       title: "SearchOps Job Platform",
@@ -468,7 +499,7 @@ const selectedWorkSection = {
         "Angular + .NET TODO app with tests.",
       companyName: null,
       categories: ["Full-Stack", "Backend & API", "Web"],
-      featured: true,
+      featured: false,
       tags: ["Angular 21", ".NET 9 Web API", "C#", "Docker", "Swagger", "xUnit", "Vitest", "Testing"],
       badge: "full-stack",
       proof: "frontend, backend, API, tests",
@@ -498,7 +529,7 @@ const selectedWorkSection = {
         "SQL tuning and reporting demo.",
       companyName: null,
       categories: ["SQL & Data"],
-      featured: true,
+      featured: false,
       tags: ["T-SQL", "Indexing", "Reporting", "Performance", "SQL Server"],
       badge: "sql performance",
       proof: "query tuning and reporting",
