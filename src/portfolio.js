@@ -372,6 +372,174 @@ const projectCurationSection = {
   ]
 };
 
+const selectedWorkSection = {
+  display: true,
+  title: "Selected Work",
+  subtitle:
+    "A focused selection of commercial and technical software engineering work.",
+  categories: [
+    "Featured",
+    "Backend & API",
+    "Full-Stack",
+    "SQL & Data",
+    "AI / ML",
+    "Web",
+    "All"
+  ],
+  projects: [
+    {
+      title: "Health-Tech API Verification",
+      description:
+        "Fixed API, auth, and parity gaps.",
+      companyName: "NostraData Pty Ltd",
+      categories: ["Backend & API"],
+      featured: true,
+      tags: [],
+      badge: "commercial api",
+      proof: null,
+      featuredMetric: "API, auth, and parity fixes",
+      github: null,
+      demo: null,
+      image: require("./assets/images/nostradataLogo.png")
+    },
+    {
+      title: "Camfor IoT Dashboard",
+      description:
+        "Built Laravel IoT dashboards.",
+      companyName: "Camfor",
+      categories: ["Full-Stack", "Backend & API", "Web"],
+      featured: false,
+      tags: [],
+      badge: "commercial iot",
+      proof: null,
+      featuredMetric: "Laravel IoT dashboards",
+      github: null,
+      demo: null,
+      image: require("./assets/images/camforLogo.png")
+    },
+    {
+      title: "Edge Kitchens Website",
+      description:
+        "Built a responsive SEO lead website.",
+      companyName: "Edge Kitchens and Bathrooms",
+      categories: ["Web"],
+      featured: false,
+      tags: [],
+      badge: "client website",
+      proof: null,
+      featuredMetric: "Responsive SEO lead website",
+      github: null,
+      demo: "https://edgekitchensandbathrooms.com.au/",
+      image: require("./assets/images/project_edgekitchens.png")
+    },
+    {
+      title: "KLN Enterprise Systems",
+      description:
+        "Built HR, finance, and CMS systems.",
+      companyName: "KLN Logistics Group Limited",
+      categories: ["Full-Stack", "SQL & Data", "Web"],
+      featured: false,
+      tags: [],
+      badge: "enterprise systems",
+      proof: null,
+      featuredMetric: "HR, finance, and CMS systems",
+      github: null,
+      demo: null,
+      image: require("./assets/images/kerryLogo.png")
+    },
+    {
+      title: "SearchOps Job Platform",
+      description:
+        "Job API, PostgreSQL, CI, and tests.",
+      companyName: null,
+      categories: ["Full-Stack", "Backend & API", "SQL & Data", "Web"],
+      featured: true,
+      tags: ["TypeScript 5.x", "Node.js 20 CI", "Express 4", "Next.js 16", "React 18", "PostgreSQL 15", "Docker", "GitHub Actions", "Vitest", "Supertest", "Playwright"],
+      badge: "full-stack platform",
+      proof: "API, data model, CI, tests",
+      featuredMetric: "Backend + data + CI",
+      github: "https://github.com/CandyCheng-git/Searchops-Job-Platform",
+      demo: null,
+      image: null
+    },
+    {
+      title: "Global360 TODO List",
+      description:
+        "Angular + .NET TODO app with tests.",
+      companyName: null,
+      categories: ["Full-Stack", "Backend & API", "Web"],
+      featured: true,
+      tags: ["Angular 21", ".NET 9 Web API", "C#", "Docker", "Swagger", "xUnit", "Vitest", "Testing"],
+      badge: "full-stack",
+      proof: "frontend, backend, API, tests",
+      featuredMetric: "Built and tested",
+      github: "https://github.com/CandyCheng-git/global360-todo-list",
+      demo: null,
+      image: null
+    },
+    {
+      title: "C# API Contract Demo",
+      description:
+        "Clean ASP.NET API contracts.",
+      companyName: null,
+      categories: ["Backend & API"],
+      featured: false,
+      tags: ["C#", "ASP.NET Core", "Swagger", "Validation", "Postman"],
+      badge: "backend",
+      proof: "API contracts and validation",
+      featuredMetric: "Clean API contracts",
+      github: "https://github.com/CandyCheng-git/Csharp-API-Contract-Demo",
+      demo: null,
+      image: null
+    },
+    {
+      title: "SQL Report Optimizer Demo",
+      description:
+        "SQL tuning and reporting demo.",
+      companyName: null,
+      categories: ["SQL & Data"],
+      featured: true,
+      tags: ["T-SQL", "Indexing", "Reporting", "Performance", "SQL Server"],
+      badge: "sql performance",
+      proof: "query tuning and reporting",
+      featuredMetric: "Slow reports to fast reports",
+      github: "https://github.com/CandyCheng-git/MSSQL-Report-Optimizer-Demo",
+      demo: null,
+      image: null
+    },
+    {
+      title: "C# Promotion Engine",
+      description:
+        "Tested pricing rules engine.",
+      companyName: null,
+      categories: ["Backend & API"],
+      featured: false,
+      tags: ["C#", "OOP", "Business Logic", "Pricing", "Rules Engine"],
+      badge: "business rules",
+      proof: "pricing rules and clean code",
+      featuredMetric: "Rules made testable",
+      github: "https://github.com/CandyCheng-git/Csharp-Promotion-Engine",
+      demo: null,
+      image: null
+    },
+    {
+      title: "Car Price Prediction",
+      description:
+        "Regression ML price model.",
+      companyName: null,
+      categories: ["AI / ML"],
+      featured: false,
+      tags: ["Python", "Pandas", "Scikit-learn", "Regression", "Jupyter"],
+      badge: "applied ml",
+      proof: "EDA, modelling, evaluation",
+      featuredMetric: "Applied ML with business context",
+      github: "https://github.com/CandyCheng-git/AI-ML-Car_Price_Prediction-Assessment-2025-01",
+      demo: null,
+      image: null
+    }
+  ]
+};
+
 // Achievement Section
 
 const achievementSection = {
@@ -448,6 +616,7 @@ export {
   techStack,
   workExperiences,
   projectCurationSection,
+  selectedWorkSection,
   bigProjects,
   achievementSection,
   contactInfo,
