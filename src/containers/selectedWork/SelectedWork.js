@@ -2,6 +2,24 @@ import React, {useState} from "react";
 import {selectedWorkSection} from "../../portfolio";
 import "./SelectedWork.scss";
 
+const additionalProjects = [
+  {
+    title: "CNN Fruit Classification",
+    description:
+      "Built and evaluated a lightweight CNN pipeline for 14-class fruit image classification, including augmentation, model comparison, and reusable inference scripts.",
+    companyName: null,
+    categories: ["AI / ML"],
+    featured: false,
+    tags: ["Python", "TensorFlow", "Keras", "scikit-learn", "CNN"],
+    badge: "machine learning",
+    proof: "training pipeline, model evaluation, inference scripts",
+    featuredMetric: "96.96% validation accuracy",
+    github: "https://github.com/CandyCheng-git/AI-ML-CNN-Fruit-Classification",
+    demo: null,
+    image: null
+  }
+];
+
 export default function SelectedWork() {
   const [activeCategory, setActiveCategory] = useState("Featured");
 
@@ -9,7 +27,9 @@ export default function SelectedWork() {
     return null;
   }
 
-  const filteredProjects = selectedWorkSection.projects.filter(project => {
+  const projects = [...selectedWorkSection.projects, ...additionalProjects];
+
+  const filteredProjects = projects.filter(project => {
     if (activeCategory === "Featured") {
       return project.featured === true;
     }
