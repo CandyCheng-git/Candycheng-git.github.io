@@ -45,10 +45,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Build",
   subTitle:
-    "Backend, APIs, SQL, cloud, reporting.",
+    "Backend, APIs, SQL, cloud, testing, reporting.",
   skills: [
     emoji("⚡ Build web apps and dashboards for real workflows"),
-    emoji("⚡ Design REST APIs and backend logic with clear contracts"),
+    emoji("⚡ Design REST APIs, backend logic, authentication/RBAC, and clear contracts"),
     emoji("⚡ Optimise SQL reports, data checks, and automation"),
     emoji("⚡ Support AWS, Azure, Docker, CI/CD, and deployments"),
     emoji("⚡ Use Angular, .NET, React, Node, Laravel, and SQL"),
@@ -152,11 +152,11 @@ const workExperiences = {
       companylogo: require("./assets/images/nostradataLogo.png"),
       date: "Jul-Aug 2026",
       desc:
-        "Healthcare API checks and fixes.",
+        "Laravel/PostgreSQL healthcare platform modernisation and API integration.",
       descBullets: [
-        "3 healthcare APIs", 
-        "1 Laravel migration + 2 new APIs", 
-        "multi-endpoint integration"
+        "PHP 8.5 / Laravel 13 / PostgreSQL 18 with Blade + Bootstrap 5.3",
+        "Resolved 3 API contract divergences across legacy-migration and new API work",
+        "Validated bearer authentication, RBAC/authorization, migrations, and regression behaviour with PHPUnit"
       ]
     },
     {
@@ -259,9 +259,9 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/nostradataLogo.png"),
-      projectName: "Health-Tech API Verification",
+      projectName: "Healthcare API Modernisation",
       projectDesc:
-        "Fixed API, auth, and parity gaps."
+        "Sanitised case study: Laravel/PostgreSQL migration, API contracts, auth/RBAC, and regression testing."
     },
     {
       image: require("./assets/images/camforLogo.png"),
@@ -389,15 +389,15 @@ const selectedWorkSection = {
   ],
   projects: [
     {
-      title: "Health-Tech API Verification",
+      title: "Healthcare API Modernisation",
       description:
-        "Verified healthcare API behaviour against specifications and legacy flows, resolving authentication, contract, and response-parity gaps.",
+        "Sanitised commercial case study: modernised legacy healthcare flows into Laravel/PostgreSQL patterns and verified REST API behaviour against specifications and legacy flows, resolving contract, authentication, authorization, and response-parity gaps.",
       companyName: "NostraData Pty Ltd",
-      categories: ["Backend & API"],
+      categories: ["Backend & API", "SQL & Data", "System Design"],
       featured: true,
-      tags: ["Laravel", "REST API", "Authentication", "API Verification"],
-      badge: "commercial api",
-      proof: "contract verification, auth debugging, regression evidence",
+      tags: ["PHP 8.5", "Laravel 13", "PostgreSQL 18", "Blade + Bootstrap 5.3", "REST + OpenAPI", "Bearer Auth + RBAC", "PHPUnit 12.5", "Docker Compose"],
+      badge: "sanitised commercial case study",
+      proof: "legacy migration, API contract conformance, auth/RBAC debugging, regression protection",
       featuredMetric: "3 API contract divergences resolved",
       github: null,
       demo: null,
