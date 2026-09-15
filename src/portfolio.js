@@ -179,11 +179,11 @@ const workExperiences = {
       bannerColor: "rgb(18 168 157)",
       date: "Nov 2024-Present",
       desc:
-        "IoT dashboards and telemetry.",
+        "IoT telemetry dashboards and API integration.",
       descBullets: [
-        "4 IoT monitoring domains", 
-        "CEO + 4+ cross-functional stakeholders", 
-        "backend, telemetry and dashboard delivery"
+        "HarvestPro WaterSense — irrigation and environmental sensor monitoring",
+        "PHP 8.2 · Laravel · Livewire 3 · Tailwind CSS 3 · MySQL 8",
+        "REST API integration, scheduled polling/cache pipeline, SQL reporting views and Docker/Nginx delivery"
       ]
     },
     {
@@ -265,9 +265,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/camforLogo.png"),
-      projectName: "Camfor IoT Dashboard",
+      projectName: "HarvestPro WaterSense",
       projectDesc:
-        "Built Laravel IoT dashboards."
+        "Built a Dockerised Laravel/Livewire IoT dashboard integrating IoT/LoRa APIs, MySQL reporting views, scheduled polling/caching, and Chart.js."
     },
     {
       image: require("./assets/images/project_edgekitchens.png"),
@@ -404,15 +404,15 @@ const selectedWorkSection = {
       image: require("./assets/images/nostradataLogo.png")
     },
     {
-      title: "Camfor IoT Dashboard",
+      title: "HarvestPro WaterSense — IoT Monitoring Dashboard",
       description:
-        "Built Laravel and Livewire dashboards for API-driven IoT telemetry and operational monitoring workflows.",
+        "Built a Dockerised Laravel/Livewire dashboard for irrigation and environmental sensor monitoring. Integrated IoT/LoRa REST APIs, scheduled polling/caching, MySQL relational schemas and reporting views, and Chart.js time-series telemetry.",
       companyName: "Camfor",
-      categories: ["Full-Stack", "Backend & API", "Web"],
-      featured: false,
-      tags: ["Laravel", "Livewire", "Tailwind", "REST API", "IoT"],
+      categories: ["Full-Stack", "Backend & API", "SQL & Data", "Web"],
+      featured: true,
+      tags: ["PHP 8.2", "Laravel", "Livewire 3", "Tailwind CSS 3", "MySQL 8", "Chart.js", "REST APIs", "OpenAPI 3.1", "Docker"],
       badge: "commercial iot",
-      proof: "telemetry mapping, dashboard workflows, responsive UI",
+      proof: "Docker Compose, Nginx 1.27, Node.js 20, Vite, polling/cache pipeline, SQL reporting views",
       featuredMetric: "4 IoT monitoring domains",
       github: null,
       demo: null,
