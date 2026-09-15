@@ -65,6 +65,7 @@ const skillsSection = {
     { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
     { skillName: "Angular", fontAwesomeClassname: "fab fa-angular" },
     { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "React Native", fontAwesomeClassname: "fab fa-react" },
     { skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs" },
     { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
     { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
@@ -76,7 +77,8 @@ const skillsSection = {
     { skillName: "C#", fontAwesomeClassname: "fas fa-code" },
     { skillName: ".NET / ASP.NET Core", fontAwesomeClassname: "fas fa-server" },
 
-    { skillName: "SQL / Databases", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Microsoft SQL Server", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Oracle Database", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Umbraco CMS", fontAwesomeClassname: "fas fa-sitemap" },
 
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
@@ -84,7 +86,7 @@ const skillsSection = {
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
 
     { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
+    { skillName: "Azure / Azure DevOps", fontAwesomeClassname: "fab fa-microsoft" },
 
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" }
@@ -206,10 +208,9 @@ const workExperiences = {
       desc:
         "Enterprise systems for 10,000+ users.",
       descBullets: [
-        "5+ enterprise systems", 
-        "5+ departments", 
-        "3+ development teams ",
-        "10,000+ users"
+        "ASP.NET Core · Vue.js · React Native · TypeScript",
+        "Microsoft SQL Server · Oracle Database · AWS · Azure DevOps · Umbraco CMS",
+        "5+ enterprise systems · 5+ departments · 3+ development teams · 10,000+ users"
       ]
     },
     {
@@ -285,7 +286,7 @@ const bigProjects = {
       image: require("./assets/images/kerryLogo.png"),
       projectName: "KLN Enterprise Systems",
       projectDesc:
-        "Built HR, finance, and CMS systems."
+        "Built HR, finance, and CMS systems using ASP.NET Core, Vue, React Native, SQL Server/Oracle, AWS, Azure DevOps, and Umbraco."
     }
   ],
   display: true
@@ -436,13 +437,13 @@ const selectedWorkSection = {
     {
       title: "KLN Enterprise Systems",
       description:
-        "Built and maintained enterprise HR, finance, and CMS workflows supporting operational teams across multiple departments.",
+        "Built and maintained enterprise HR, finance, mobile, and CMS workflows supporting 10,000+ users across multiple departments.",
       companyName: "KLN Logistics Group Limited",
-      categories: ["Full-Stack", "SQL & Data", "Web"],
+      categories: ["Full-Stack", "Backend & API", "SQL & Data", "Web"],
       featured: false,
-      tags: ["ASP.NET", "SQL", "Enterprise Systems", "CMS"],
+      tags: ["ASP.NET Core", "Vue.js", "React Native", "TypeScript", "SQL Server", "Oracle Database", "AWS", "Azure DevOps", "Umbraco CMS"],
       badge: "enterprise systems",
-      proof: "business workflows, enterprise data, cross-team delivery",
+      proof: "enterprise workflows, mobile delivery, SQL/Oracle data, cloud/DevOps, cross-team delivery",
       featuredMetric: "10,000+ users across 5+ departments",
       github: null,
       demo: null,
